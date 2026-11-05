@@ -1,0 +1,117 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 522.9559 28.34646 Tm (Page 82) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 780.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Channel closing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 763.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 730.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 714.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 697.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 681.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 664.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 631.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Channel closing: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 597.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Lightning fees) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 580.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Lightning fees: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 5610.5 TL (\177 Channel closing: Risks and failure modes) Tj T* ET
+      12m /F1 8.5 Tf 10.5 TL (\177 Channel closing: Risks and failure modes) Tjl7 rg
+ 0 rg
+B.1clo4\T4B.1clo4\T32s) ng fees) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 580.8701 cm
+q3701t  Tf 10.5 TL (\177 Channel closing: Risks and failur4c n rg
+BT 1 0 0 2 Tm /F1ET
+Q
+i( ng fees) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 580.8701 cm
+q370137026cn1.Bplelelelelelelelelel cm
+i(\177 Channel closing: Risks and failur4c n 22

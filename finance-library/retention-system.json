@@ -1,0 +1,169 @@
+﻿{
+  "platform": "NAKAMOTO Finance Library",
+  "growthObjective": "Make NAKAMOTO Finance Library a recurring investing workspace rather than a one-time reading destination.",
+  "returnLoops": [
+    {
+      "name": "Daily Market News Loop",
+      "cadence": "Daily",
+      "userPromise": "Check market developments through long-term investor context every market day.",
+      "surfaces": ["Daily News", "Dashboard", "Newsletter", "Archives"],
+      "metrics": ["daily_news_opened", "newsletter_click", "archive_followup"]
+    },
+    {
+      "name": "Weekly Research Ritual",
+      "cadence": "Weekly",
+      "userPromise": "Understand what changed, what matters, and what action to consider.",
+      "surfaces": ["Dashboard", "Markets Hub", "Weekly Desk", "Email Brief"],
+      "metrics": ["brief_completed", "checklist_completed", "return_within_7_days"]
+    },
+    {
+      "name": "Investor Journey Progress",
+      "cadence": "Evergreen",
+      "userPromise": "Know exactly what to learn next based on investor stage and decision.",
+      "surfaces": ["Dashboard", "Academy", "Investor Compass"],
+      "metrics": ["active_journey_selected", "lessons_completed", "next_read_clicked"]
+    },
+    {
+      "name": "Saved Research Collections",
+      "cadence": "As needed",
+      "userPromise": "Build a personal library of guides, tools, and research briefs.",
+      "surfaces": ["Dashboard", "Research Library", "Tools", "Article Template"],
+      "metrics": ["resource_saved", "saved_resource_opened", "collection_depth"]
+    },
+    {
+      "name": "Market Intelligence Habit",
+      "cadence": "Weekly and quarterly",
+      "userPromise": "Read markets through valuation, earnings, rates, breadth, and portfolio context.",
+      "surfaces": ["Dashboard", "Markets Hub", "Research Library"],
+      "metrics": ["market_hub_return", "regime_note_read", "quarterly_guide_read"]
+    },
+    {
+      "name": "Archive Discovery Loop",
+      "cadence": "Always-on",
+      "userPromise": "Find the right guide, report, tool, or market note whenever a new investing question appears.",
+      "surfaces": ["Search", "Archives", "Research Library", "Glossary"],
+      "metrics": ["search_performed", "archive_result_clicked", "related_content_clicked"]
+    },
+    {
+      "name": "Trending and Related Content Loop",
+      "cadence": "Daily and weekly",
+      "userPromise": "Always find the most relevant current article, framework, calculator, or resource for the next investing decision.",
+      "surfaces": ["Trending", "Article Template", "Search", "Dashboard"],
+      "metrics": ["trending_opened", "related_path_clicked", "next_resource_saved"]
+    },
+    {
+      "name": "Model Portfolio Review Loop",
+      "cadence": "Quarterly",
+      "userPromise": "Return to compare allocation drift, market context, rebalancing rules, and implementation choices.",
+      "surfaces": ["Model Portfolios", "Tools", "Markets Hub", "Dashboard"],
+      "metrics": ["model_opened", "allocation_tool_used", "quarterly_review_completed"]
+    },
+    {
+      "name": "Wealth Journey Progression Loop",
+      "cadence": "Ongoing",
+      "userPromise": "Move from assessment to goals, learning, portfolio review, market context, research practice, and advanced global context.",
+      "surfaces": ["Wealth Journey", "Investor IQ", "Dashboard", "Academy"],
+      "metrics": ["iq_completed", "journey_milestone_completed", "achievement_unlocked"]
+    },
+    {
+      "name": "Portfolio Clinic Loop",
+      "cadence": "Quarterly",
+      "userPromise": "Return to audit portfolio process before making new investment decisions.",
+      "surfaces": ["Portfolio Clinic", "Dashboard", "Model Portfolios", "Resources"],
+      "metrics": ["clinic_score_updated", "unchecked_items_reduced", "portfolio_resource_saved"]
+    },
+    {
+      "name": "Research Lab Practice Loop",
+      "cadence": "Monthly",
+      "userPromise": "Build investor skill through ETF, stock, portfolio, valuation, market, and decision-log exercises.",
+      "surfaces": ["Research Lab", "Frameworks", "Reports", "Dashboard"],
+      "metrics": ["lab_track_opened", "framework_used", "decision_log_created"]
+    },
+    {
+      "name": "Trading Academy Skill Loop",
+      "cadence": "Weekly",
+      "userPromise": "Advance trading skill through risk-first modules, journaling, backtesting, execution review, and professional process audits.",
+      "surfaces": ["Trading Academy", "Research Lab", "Market Pulse", "Dashboard"],
+      "metrics": ["trading_module_completed", "journal_reviewed", "backtest_protocol_used"]
+    },
+    {
+      "name": "Institutional Memory Loop",
+      "cadence": "Always-on",
+      "userPromise": "Return to market history, case studies, thesis reviews, wiki entries, and archived context whenever a new decision appears.",
+      "surfaces": ["Institution", "Market History", "Case Studies", "Thesis Library", "Investing Wiki"],
+      "metrics": ["history_entry_opened", "case_study_read", "thesis_reviewed", "wiki_path_followed"]
+    },
+    {
+      "name": "Calendar and Alert Loop",
+      "cadence": "Daily, weekly, and quarterly",
+      "userPromise": "Track market events, portfolio reviews, thesis checks, and learning reminders without relying on noisy news habits.",
+      "surfaces": ["Economic Calendar", "Alerts", "Dashboard", "Market Pulse"],
+      "metrics": ["alert_created", "calendar_event_opened", "portfolio_review_reminder_used"]
+    },
+    {
+      "name": "Certification Progress Loop",
+      "cadence": "Monthly",
+      "userPromise": "Turn education into visible progress through structured credentials and applied learning paths.",
+      "surfaces": ["Certifications", "Academy", "Trading Academy", "Research Lab"],
+      "metrics": ["certification_track_opened", "academy_module_completed", "research_exercise_completed"]
+    }
+  ],
+  "authoritySystems": [
+    "Editorial standards",
+    "Glossary-linked explanations",
+    "Transparent research formats",
+    "Educational disclaimers",
+    "Tool-backed articles",
+    "Decision-based roadmaps",
+    "Model portfolio policy notes",
+    "Framework-led research templates",
+    "Visual data dashboards",
+    "Assessment-based learning paths",
+    "Goal-based portfolio mapping",
+    "Portfolio clinic review system",
+    "Progress and achievement tracking",
+    "Trading risk curriculum",
+    "Journal and backtest discipline",
+    "Investor profile personalization",
+    "Economic calendar context",
+    "Market history archive",
+    "Investment thesis library",
+    "Case study collections",
+    "Investing wiki",
+    "Portfolio simulator",
+    "Investor certifications",
+    "Local alert center"
+  ],
+  "evergreenCenters": [
+    "Investing Foundations",
+    "ETF Due Diligence",
+    "Portfolio Construction",
+    "Stock Research",
+    "Market Cycles",
+    "Retirement Income",
+    "Investor Behavior",
+    "Tax-Aware Investing",
+    "Model Portfolio Library",
+    "Investment Frameworks",
+    "Resource Library",
+    "Wealth Journey",
+    "Investor IQ",
+    "Goal-Based Investing",
+    "Portfolio Clinic",
+    "Market Pulse",
+    "Research Lab",
+    "Global Markets",
+    "Trading Academy",
+    "Institutional Systems",
+    "Investor Profiles",
+    "Economic Calendar",
+    "Market History",
+    "Thesis Library",
+    "Case Studies",
+    "Investing Wiki",
+    "Portfolio Simulator",
+    "Investor Certifications",
+    "Alerts Center"
+  ]
+}
+

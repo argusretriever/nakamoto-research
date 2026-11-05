@@ -1,0 +1,246 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 518.5079 28.34646 Tm (Page 124) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 776.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (45. Bitcoin ETFs and ETPs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 758.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Spot ETFs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 741.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 725.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 708.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 692.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 675.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 659.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 642.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 626.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 609.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 593.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Spot ETFs: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 575.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Futures ETFs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 558.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 542.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 525.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 509.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 492.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 476.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 459.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 443.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 426.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 410.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Futures ETFs: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 392.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (ETF creation-redemption) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 375.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 359.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 342.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 326.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 309.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 293.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 276.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 260.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 243.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 227.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 ETF creation-redemption: Website article idea) Tj T* ET
+Q
+Q
+ 

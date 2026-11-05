@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nakamatoresearch.com/sitemap.xml
+Sitemap: https://nakamatoresearch.com/finance-library/sitemap.xml
+Sitemap: https://nakamatoresearch.com/trading-academy/academy-library/sitemap.xml

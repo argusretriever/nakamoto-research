@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msvalidate.01" content="2EC5E10A2F94F4D56BBD583A09729B3F">
+    <script>(function(){try{var t=localStorage.getItem("nakamoto-theme");if(!t){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.dataset.theme=t;document.documentElement.dataset.themeReady="true";}catch(e){}})();</script>
+    <meta name="description" content="Bitcoin tools for safer decisions, including wallet selector, exchange selector, DCA calculator, address checker, transaction explainer, and tax checklist.">
+    <title>Bitcoin Tools: Wallet Selector, DCA Calculator & Safety Checker | NAKAMOTO</title>
+    <link rel="canonical" href="https://nakamatoresearch.com/tools.html">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.clarity.ms">
+    <link rel="dns-prefetch" href="//www.bing.com">
+    <link rel="dns-prefetch" href="//bat.bing.net">
+    <link rel="alternate" type="application/rss+xml" title="NAKAMOTO Daily Crypto News" href="/feed.xml">
+    <meta property="og:site_name" content="NAKAMOTO">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bitcoin Tools: Wallet Selector, DCA Calculator & Safety Checker | NAKAMOTO">
+    <meta property="og:description" content="Bitcoin tools for safer decisions, including wallet selector, exchange selector, DCA calculator, address checker, transaction explainer, and tax checklist.">
+    <meta property="og:url" content="https://nakamatoresearch.com/tools.html">
+    <meta property="og:image" content="https://nakamatoresearch.com/assets/nakamoto-hero.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bitcoin Tools: Wallet Selector, DCA Calculator & Safety Checker | NAKAMOTO">
+    <meta name="twitter:description" content="Bitcoin tools for safer decisions, including wallet selector, exchange selector, DCA calculator, address checker, transaction explainer, and tax checklist.">
+    <meta name="twitter:image" content="https://nakamatoresearch.com/assets/nakamoto-hero.png">
+    <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Article","headline":"Tools","description":"Bitcoin tools for safer decisions, including wallet selector, exchange selector, DCA calculator, address checker, transaction explainer, and tax checklist.","url":"https://nakamatoresearch.com/tools.html","mainEntityOfPage":"https://nakamatoresearch.com/tools.html","dateModified":"2026-06-15","author":{"@type":"Organization","name":"NAKAMOTO"},"publisher":{"@type":"Organization","name":"NAKAMOTO","logo":{"@type":"ImageObject","url":"https://nakamatoresearch.com/assets/bitcoin-logo-bw.svg"}},"image":"https://nakamatoresearch.com/assets/nakamoto-hero.png","datePublished":"2026-06-12"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nakamatoresearch.com/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://nakamatoresearch.com/tools.html"}]}]</script>    <link rel="stylesheet" href="styles.css?v=20260626-studio1">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLL3RRGXCK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WLL3RRGXCK');
+    </script>
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "x97vtsxof3");
+    </script>
+    <!-- Microsoft Advertising UET -->
+    <script>
+      (function(w, d, t, u, o) {
+        w[u] = w[u] || [];
+        o = o || {};
+        o.ti = "97252882";
+        o.enableAutoSpaTracking = true;
+        o.ts = (new Date()).getTime();
+        var n = d.createElement(t);
+        n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" !== u ? "&q=" + u : "");
+        n.async = 1;
+        n.onload = n.onreadystatechange = function() {
+          var s = this.readyState;
+          if (!s || s === "loaded" || s === "complete") {
+            o.q = w[u];
+            w[u] = new UET(o);
+            w[u].push("pageLoad");
+            n.onload = n.onreadystatechange = null;
+          }
+        };
+        var i = d.getElementsByTagName(t)[0];
+        i.parentNode.insertBefore(n, i);
+      })(window, document, "script", "uetq");
+    </script>
+    <link rel="stylesheet" href="assets/share-tools.css">
+    <script defer src="assets/share-tools.js"></script>
+  <link rel="stylesheet" href="assets/monochrome.css" data-design-system="monochrome"></head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/bitcoin-logo-bw.svg" alt="Bitcoin logo" loading="lazy" decoding="async" width="512" height="512"></span><span>NAKAMOTO</span></a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="start.html">Start Here</a>
+        <a href="explore.html">Explore</a><a href="search.html">Search</a>
+        <a href="tools.html">Tools</a>
+        <a href="calendars.html">Calendars</a>
+        <a href="global-markets.html">Markets</a>
+        <a href="bitcoin-blog.html">Blog</a>
+        <a href="crypto-news-today.html">News</a>
+        <a href="resources.html">Sources</a>
+      </nav>
+      <a class="nav-action" href="start.html">Start Learning</a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Tools</p>
+        <h1>Bitcoin tools for safer decisions.</h1>
+        <p>Calculators, selectors, risk scores, and checklists that help readers learn before they act.</p>
+      </section>
+
+      <section class="editorial-note">
+        <strong>Educational note</strong>
+        <p>These tools are educational and should not be treated as financial, tax, legal, or security advice.</p>
+      </section>
+
+      <section class="editorial-note source-note">
+        <strong>Original sources</strong>
+        <p>Independent resources are listed separately so readers can verify claims directly.</p>
+        <a href="resources.html">Open Resource Library</a>
+      </section>
+
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="section-kicker">Tool Map</p>
+          <h2>Choose the tool you need.</h2>
+        </div>
+        <div class="tool-map-grid">
+          <a class="action-card" href="#bitcoin-safety-score"><span>Safety Score</span><h3>How safe is your setup?</h3><p>Helps with wallet safety, backups, and account security.</p><em>Open score</em></a>
+          <a class="action-card" href="bitcoin-etf-flow-tracker.html"><span>ETF Tracker</span><h3>Check ETF sources.</h3><p>Issuer pages, fees, custody, flows, NAV, premium or discount, and SEC filing checks.</p><em>Open tracker</em></a>
+          <a class="action-card" href="stablecoin-risk-dashboard.html"><span>Stablecoins</span><h3>Check reserves and redemption.</h3><p>USDT, USDC, PYUSD, FDUSD, attestations, chain risk, and depeg questions.</p><em>Open dashboard</em></a>
+          <a class="action-card" href="trading-academy.html"><span>Trading Academy</span><h3>Market structure and risk education.</h3><p>Risk-first curriculum, market-structure lesson, trading glossary, and risk lab adapted for Nakamoto readers.</p><em>Open academy</em></a>
+          <a class="action-card" href="finance-library/tools.html"><span>Finance Tools</span><h3>Portfolio, ETF, fee, and research tools.</h3><p>Long-term investing calculators, portfolio clinic, market pulse, ETF checklists, and research workflows.</p><em>Open finance tools</em></a>
+          <a class="action-card" href="money-library/tools.html"><span>Money Tools</span><h3>Budget, debt, savings, and paycheck tools.</h3><p>Personal finance calculators, money reset paths, emergency fund planning, debt payoff, and budget templates.</p><em>Open money tools</em></a>
+          <a class="action-card" href="planning-calculators.html"><span>Planning</span><h3>Business, money, property, and wealth calculators.</h3><p>Break-even, savings rate, mortgage pressure, compound growth, and emergency fund estimates.</p><em>Open planning calculators</em></a>
+          <a class="action-card" href="search.html"><span>Search</span><h3>Find any tool or guide.</h3><p>Search across Bitcoin, finance, money, academy, safety, sources, ETF, RWA, and market pages.</p><em>Open search</em></a>
+          <a class="action-card" href="rwa-issuer-risk-database.html"><span>RWA Database</span><h3>Issuer risk checks.</h3><p>Legal title, custody, redemption, securities status, and source proof for tokenized assets.</p><em>Open database</em></a>
+          <a class="action-card" href="crypto-security-incident-timeline.html"><span>Incident Timeline</span><h3>Turn security news into lessons.</h3><p>Phishing, wallet drainers, fake apps, malware, exchange incidents, and exploit prevention.</p><em>Open timeline</em></a>
+          <a class="action-card" href="bitcoin-decision-safety.html"><span>Decision Center</span><h3>Decision trees and recovery.</h3><p>Red flags, security levels, family planning, loss prevention, and life events.</p><em>Open center</em></a>
+          <a class="action-card" href="#wallet-selector"><span>Wallet Selector</span><h3>Hot, desktop, hardware, multisig.</h3><p>Helps compare hot, desktop, hardware, and multisig choices.</p><em>Open tool</em></a>
+          <a class="action-card" href="#wallet-setup-wizard"><span>Wallet Wizard</span><h3>Set up safely.</h3><p>Helps with safer setup and small test transactions.</p><em>Open wizard</em></a>
+          <a class="action-card" href="#wallet-comparison"><span>Wallet Comparison</span><h3>Compare wallet types.</h3><p>Helps compare wallet categories before choosing one.</p><em>Compare wallets</em></a>
+          <a class="action-card" href="#exchange-selector"><span>Exchange Selector</span><h3>Buy Bitcoin safely.</h3><p>Helps readers choose a buying path with fewer mistakes.</p><em>Open tool</em></a>
+          <a class="action-card" href="#exchange-fees"><span>Fee Comparison</span><h3>Compare exchange costs.</h3><p>Helps readers understand fees, spreads, and withdrawal costs.</p><em>Compare fees</em></a>
+          <a class="action-card" href="#performance-simulator"><span>DCA Calculator</span><h3>Plan recurring buys.</h3><p>Helps model lump sum, monthly buying, and DCA paths.</p><em>Open calculator</em></a>
+          <a class="action-card" href="#unit-converter"><span>Converter</span><h3>BTC, sats, USD.</h3><p>Best fit: beginner utility and live price education.</p><em>Open converter</em></a>
+          <a class="action-card" href="#address-checker"><span>Address Checker</span><h3>Explain address type.</h3><p>Best fit: safer withdrawal and self-custody education.</p><em>Check address</em></a>
+          <a class="action-card" href="#transaction-explainer"><span>Transaction</span><h3>Explain a TXID.</h3><p>Best fit: confirmation, fee, input, and output education.</p><em>Explain TX</em></a>
+          <a class="action-card" href="data.html#live-chart"><span>Live Chart</span><h3>Price by timeframe.</h3><p>Best fit: users checking market context before using DCA tools.</p><em>Open chart</em></a>
+          <a class="action-card" href="#scam-checker"><span>Scam Checker</span><h3>Check warning signs.</h3><p>Helps readers spot red flags before clicking or sending money.</p><em>Open checker</em></a>
+          <a class="action-card" href="#buying-checklist"><span>Buying Checklist</span><h3>Buy with fewer mistakes.</h3><p>Helps readers prepare before a first Bitcoin purchase.</p><em>Open checklist</em></a>
+          <a class="action-card" href="#tax-readiness"><span>Tax Estimator</span><h3>Prepare users for reporting.</h3><p>Helps organize records before tax season.</p><em>Open score</em></a>
+          <a class="action-card" href="#tax-checklist"><span>Tax Checklist</span><h3>Organize records.</h3><p>Helps with transaction records and tax organization.</p><em>Open checklist</em></a>
+          <a class="action-card" href="#portfolio-allocation"><span>Allocation Tool</span><h3>Model 1%, 5%, 10%.</h3><p>Helps readers understand sizing, volatility, and expectations.</p><em>Open tool</em></a>
+          <a class="action-card" href="#inheritance-planner"><span>Inheritance Planner</span><h3>Plan for heirs.</h3><p>Helps with recovery planning and family instructions.</p><em>Open planner</em></a>
+          <a class="action-card" href="#risk"><span>Custody Risk Score</span><h3>Teach self-custody safety.</h3><p>Helps readers evaluate their self-custody setup.</p><em>Open score</em></a>
+          <a class="action-card" href="#treasury"><span>Treasury Risk Score</span><h3>Business Bitcoin readiness.</h3><p>Helps businesses think through policy, custody, accounting, and liquidity.</p><em>Open score</em></a>
+          <a class="action-card" href="#tool-directory"><span>Tool Directory</span><h3>Useful tools in one place.</h3><p>Helps readers find wallets, exchanges, tax tools, books, and dashboards.</p><em>Open directory</em></a>
+        </div>
+      </section>
+
+      <section id="wallet-setup-wizard" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Wallet Setup Wizard</p>
+          <h2>Set up a wallet without rushing.</h2>
+        </div>
+        <div class="score-grid">
+          <article>
+            <span>Setup Steps</span>
+            <h3 data-wallet-setup-score>0 of 6 complete</h3>
+            <label><input type="checkbox" data-wallet-setup-check> I chose the right wallet type for the amount</label>
+            <label><input type="checkbox" data-wallet-setup-check> I downloaded from an official source</label>
+            <label><input type="checkbox" data-wallet-setup-check> I wrote the seed phrase offline</label>
+            <label><input type="checkbox" data-wallet-setup-check> I checked that no photo or cloud copy exists</label>
+            <label><input type="checkbox" data-wallet-setup-check> I sent a small test transaction</label>
+            <label><input type="checkbox" data-wallet-setup-check> I understand recovery before storing more</label>
+          </article>
+          <article>
+            <span>Next Step</span>
+            <h3>Move slowly.</h3>
+            <p>The safest setup is one the reader can recover calmly without exposing seed words.</p>
+            <a class="button secondary" href="guides.html#wallet-beginners">Read wallet guide</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="bitcoin-safety-score" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Bitcoin Safety Score</p>
+          <h2>How safe is your setup?</h2>
+          <p>This is educational, not security advice. It helps readers find obvious weak points before they store serious money.</p>
+        </div>
+        <div class="score-grid">
+          <article>
+            <span>Score</span>
+            <h3 data-safety-score>High Risk</h3>
+            <label><input type="checkbox" data-safety-check> I use two-factor authentication on exchange accounts</label>
+            <label><input type="checkbox" data-safety-check> I have written seed words offline</label>
+            <label><input type="checkbox" data-safety-check> I do not store seed words in photos or cloud notes</label>
+            <label><input type="checkbox" data-safety-check> I tested a small withdrawal first</label>
+            <label><input type="checkbox" data-safety-check> I use a hardware wallet for meaningful savings</label>
+          </article>
+          <article>
+            <span>Next Step</span>
+            <h3>Fix the weakest point first.</h3>
+            <p>If the score is high risk, start with account security, seed phrase storage, and a small withdrawal test.</p>
+            <a class="button secondary" href="guides.html#self-custody">Read self-custody guide</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="wallet-comparison" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Wallet Comparison</p>
+          <h2>Hot wallet, desktop wallet, hardware wallet, or multisig?</h2>
+        </div>
+        <div class="compare-table">
+          <article><span>Hot Wallet</span><h3>Best for small amounts.</h3><p>Easy to use, but keys live on an internet-connected phone or app.</p><a href="resources.html#wallets">Open wallet links</a></article>
+          <article><span>Desktop Wallet</span><h3>Best for control.</h3><p>Good for learning transactions, coin control, and hardware-wallet use.</p><a href="resources.html#wallets">Open desktop wallets</a></article>
+          <article><span>Hardware Wallet</span><h3>Best for savings.</h3><p>Keeps private keys offline and reduces everyday device risk.</p><a href="hardware-wallet-comparison.html">Compare hardware wallets</a></article>
+          <article><span>Multisig</span><h3>Best for large balances.</h3><p>Uses multiple keys and documented recovery, but needs more planning.</p><a href="guides.html#self-custody">Read custody guide</a></article>
+        </div>
+      </section>
+
+      <section id="buying-checklist" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Beginner Buying Checklist</p>
+          <h2>Before buying Bitcoin, check these steps.</h2>
+        </div>
+        <div class="score-grid">
+          <article>
+            <span>Checklist</span>
+            <h3 data-buying-score>0 of 6 complete</h3>
+            <label><input type="checkbox" data-buying-check> I chose a reputable exchange or broker</label>
+            <label><input type="checkbox" data-buying-check> I enabled two-factor authentication</label>
+            <label><input type="checkbox" data-buying-check> I understand all fees before buying</label>
+            <label><input type="checkbox" data-buying-check> I know how withdrawals work</label>
+            <label><input type="checkbox" data-buying-check> I will test with a small amount first</label>
+            <label><input type="checkbox" data-buying-check> I will not share seed words with anyone</label>
+          </article>
+          <article>
+            <span>Next Step</span>
+            <h3>Use the exchange selector.</h3>
+            <p>After the checklist, compare recurring-buy platforms, advanced exchanges, and Bitcoin-only brokers.</p>
+            <a class="button secondary" href="#exchange-selector">Compare exchanges</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="scam-checker" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Bitcoin Scam Checker</p>
+          <h2>Does this offer have warning signs?</h2>
+        </div>
+        <div class="score-grid">
+          <article>
+            <span>Warning Signs</span>
+            <h3 data-scam-score>Low Warning</h3>
+            <label><input type="checkbox" data-scam-check> They promise guaranteed profit</label>
+            <label><input type="checkbox" data-scam-check> They ask for seed words or private keys</label>
+            <label><input type="checkbox" data-scam-check> They pressure you to act today</label>
+            <label><input type="checkbox" data-scam-check> They contacted you through social media or romance messages</label>
+            <label><input type="checkbox" data-scam-check> The website looks like a copy of a real exchange</label>
+            <label><input type="checkbox" data-scam-check> You must deposit more money to withdraw</label>
+          </article>
+          <article>
+            <span>Rule</span>
+            <h3>If seed words are requested, stop.</h3>
+            <p>No real wallet, exchange, support agent, giveaway, miner, or investor needs your seed phrase.</p>
+            <a class="button secondary" href="guides.html#seed-phrase">Read seed phrase guide</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="wallet-selector" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Wallet Selector</p>
+          <h2>Find the right wallet category.</h2>
+        </div>
+        <div class="selector-grid">
+          <label><span>Experience</span><select data-wallet-experience><option value="beginner">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select></label>
+          <label><span>Amount</span><select data-wallet-amount><option value="small">Small spending balance</option><option value="medium">Meaningful savings</option><option value="large">Large long-term holdings</option></select></label>
+          <label><span>Need</span><select data-wallet-need><option value="simple">Simple setup</option><option value="desktop">Desktop control</option><option value="multisig">Multisig security</option></select></label>
+        </div>
+        <div class="recommendation-card" data-wallet-output>
+          <span>Recommendation</span>
+          <h3>Mobile hot wallet for small amounts.</h3>
+          <p>Use a hot wallet only for spending balances. For savings, graduate to hardware or multisig.</p>
+        </div>
+        <div class="reference-links">
+          <a href="library.html">Hot wallet guide</a>
+          <a href="library.html">Desktop wallet guide</a>
+          <a href="library.html">Hardware wallet guide</a>
+          <a href="library.html">Multisig guide</a>
+        </div>
+      </section>
+
+      <section id="exchange-selector" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Exchange Selector</p>
+          <h2>Route users to the right buying path.</h2>
+        </div>
+        <div class="selector-grid">
+          <label><span>Goal</span><select data-exchange-goal><option value="dca">Recurring buys</option><option value="advanced">Advanced trading</option><option value="bitcoin-only">Bitcoin-only focus</option></select></label>
+          <label><span>Priority</span><select data-exchange-priority><option value="simplicity">Simplicity</option><option value="fees">Lower fees</option><option value="withdrawal">Easy self-custody withdrawal</option></select></label>
+        </div>
+        <div class="recommendation-card" data-exchange-output>
+          <span>Recommendation</span>
+          <h3>Bitcoin-only broker or recurring-buy exchange.</h3>
+          <p>Best for users who want a simple DCA path and regular self-custody withdrawals.</p>
+        </div>
+        <div class="reference-links">
+          <a href="https://river.com/" target="_blank" rel="noreferrer">River</a>
+          <a href="https://www.swanbitcoin.com/" target="_blank" rel="noreferrer">Swan Bitcoin</a>
+          <a href="https://www.kraken.com/" target="_blank" rel="noreferrer">Kraken</a>
+          <a href="https://www.coinbase.com/" target="_blank" rel="noreferrer">Coinbase</a>
+        </div>
+      </section>
+
+      <section id="exchange-fees" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Exchange Fee Comparison</p>
+          <h2>Compare the real cost of buying Bitcoin.</h2>
+          <p>Fees can include spread, trading fee, funding fee, and withdrawal fee. Readers should compare the whole path, not only the advertised trading fee.</p>
+        </div>
+        <div class="compare-table">
+          <article><span>River</span><h3>Recurring buy focus.</h3><p>Good fit for users who want Bitcoin-only education and simple recurring buys.</p><a href="https://river.com/" target="_blank" rel="noreferrer">Open River</a></article>
+          <article><span>Swan</span><h3>Bitcoin-only buying.</h3><p>Good fit for DCA-focused users who prefer a Bitcoin-only brand.</p><a href="https://www.swanbitcoin.com/" target="_blank" rel="noreferrer">Open Swan</a></article>
+          <article><span>Kraken</span><h3>Advanced exchange.</h3><p>Good fit for users who want broader exchange features and lower-fee trading tools.</p><a href="https://www.kraken.com/" target="_blank" rel="noreferrer">Open Kraken</a></article>
+          <article><span>Coinbase</span><h3>Beginner access.</h3><p>Good fit for users who want a mainstream app, but fees and spreads should be checked carefully.</p><a href="https://www.coinbase.com/" target="_blank" rel="noreferrer">Open Coinbase</a></article>
+        </div>
+      </section>
+
+      <section id="performance-simulator" class="performance-simulator" aria-labelledby="performance-simulator-title">
+        <div class="section-heading"><p class="section-kicker">Investment Simulator</p><h2 id="performance-simulator-title">Lump sum, monthly buying, and DCA.</h2></div>
+        <p class="editorial-note">Illustrative model, not a verified historical backtest. It uses embedded annual reference prices, interpolated monthly prices before 2026, and the checked quote for all purchases from 2026 onward. Monthly purchases occur at the start of each month, including the current month. Comparison rates are assumptions, not observed asset returns. Fees, taxes, inflation, and execution costs are excluded.</p><div class="simulator-shell">
+          <div class="investment-controls">
+            <label><span>Start year</span><select data-invest-start><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020" selected>2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option></select></label>
+            <label><span>Lump sum amount</span><input type="number" min="0" step="100" value="1000" data-lump-amount></label>
+            <label><span>Monthly DCA amount</span><input type="number" min="0" step="25" value="100" data-monthly-amount></label>
+            <label><span>Compare with</span><select data-asset-compare><option value="cash">Cash saved</option><option value="gold">Gold estimate</option><option value="stocks">Stock index estimate</option><option value="real-estate">Real estate estimate</option></select></label>
+            <button class="refresh-button" type="button" data-calc-investment>Calculate</button>
+          </div>
+          <div class="investment-results">
+            <article><span>Total invested</span><strong data-invested-total>$0</strong><small>Lump sum plus monthly buys</small></article>
+            <article><span>Estimated BTC</span><strong data-btc-total>0 BTC</strong><small>Illustrative approximation</small></article>
+            <article><span>Model value at checked quote</span><strong data-current-value>$0</strong><small data-current-price-note>Live BTC price when available</small></article>
+            <article><span>Profit / loss</span><strong data-profit-loss>$0</strong><small data-return-multiple>0x return</small></article>
+          </div>
+          <div class="strategy-grid">
+            <article><span>Lump Sum</span><h3 data-lump-result>$0</h3><p>One purchase at the start year price.</p></article>
+            <article><span>Monthly DCA</span><h3 data-dca-result>$0</h3><p>Equal monthly purchases.</p></article>
+            <article><span>Combined</span><h3 data-combined-result>$0</h3><p>Lump sum plus monthly accumulation.</p></article>
+            <article><span data-asset-label>Cash saved</span><h3 data-asset-result>$0</h3><p data-asset-note>Same total dollars, no investment return.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="unit-converter" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">BTC / Sats / USD Converter</p>
+          <h2>Convert Bitcoin units without confusion.</h2>
+          <p>One bitcoin equals 100,000,000 sats. USD estimates use the live BTC price when available.</p>
+        </div>
+        <div class="selector-grid">
+          <label><span>BTC</span><input type="number" min="0" step="0.00000001" value="0.001" data-convert-btc></label>
+          <label><span>Sats</span><input type="number" min="0" step="1" data-convert-sats></label>
+          <label><span>USD estimate</span><input type="number" min="0" step="1" data-convert-usd></label>
+        </div>
+        <div class="recommendation-card">
+          <span>Unit note</span>
+          <h3 data-convert-note>0.001 BTC equals 100,000 sats.</h3>
+          <p>Sats are useful for small amounts because most people do not think naturally in decimals of one bitcoin.</p>
+        </div>
+      </section>
+
+      <section id="address-checker" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Address Checker + Explainer</p>
+          <h2>Check what kind of Bitcoin address this looks like.</h2>
+          <p>This only checks format. It cannot prove ownership, safety, or whether an address belongs to the intended recipient.</p>
+        </div>
+        <div class="selector-grid">
+          <label><span>Bitcoin address</span><input type="text" placeholder="Paste address beginning with 1, 3, bc1q, or bc1p" data-address-input></label>
+        </div>
+        <div class="recommendation-card" data-address-output>
+          <span>Waiting</span>
+          <h3>Paste a Bitcoin address.</h3>
+          <p>Legacy, nested SegWit, native SegWit, and Taproot addresses are explained here.</p>
+        </div>
+      </section>
+
+      <section id="transaction-explainer" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Transaction Explainer</p>
+          <h2>Paste a transaction ID and learn what to check.</h2>
+          <p>This explains the transaction ID format and links to a public explorer. Live transaction lookup can be added later.</p>
+        </div>
+        <div class="selector-grid">
+          <label><span>Transaction ID</span><input type="text" placeholder="64-character transaction ID" data-txid-input></label>
+        </div>
+        <div class="recommendation-card" data-txid-output>
+          <span>Waiting</span>
+          <h3>Paste a transaction ID.</h3>
+          <p>A TXID is usually a 64-character hexadecimal identifier for a Bitcoin transaction.</p>
+          <a class="button secondary" href="https://mempool.space/" target="_blank" rel="noreferrer" data-txid-link>Open mempool.space</a>
+        </div>
+      </section>
+
+      <section id="risk" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Risk Scores</p>
+          <h2>Turn education into action.</h2>
+        </div>
+        <div class="score-grid">
+          <article id="custody-risk">
+            <span>Custody Risk Score</span>
+            <h3 data-custody-score>Medium</h3>
+            <label><input type="checkbox" data-custody-check> Hardware wallet used</label>
+            <label><input type="checkbox" data-custody-check> Seed phrase backed up offline</label>
+            <label><input type="checkbox" data-custody-check> No cloud screenshots</label>
+            <label><input type="checkbox" data-custody-check> Inheritance plan exists</label>
+          </article>
+          <article id="treasury">
+            <span>Treasury Risk Score</span>
+            <h3 data-treasury-score>High</h3>
+            <label><input type="checkbox" data-treasury-check> Board-approved policy</label>
+            <label><input type="checkbox" data-treasury-check> Custody vendor reviewed</label>
+            <label><input type="checkbox" data-treasury-check> Accounting treatment reviewed</label>
+            <label><input type="checkbox" data-treasury-check> Liquidity plan documented</label>
+          </article>
+          <article id="tax-readiness">
+            <span>Tax Readiness</span>
+            <h3 data-tax-score>Needs Review</h3>
+            <label><input type="checkbox" data-tax-check> Exchange history exported</label>
+            <label><input type="checkbox" data-tax-check> Wallet transfers labeled</label>
+            <label><input type="checkbox" data-tax-check> Cost basis tracked</label>
+            <label><input type="checkbox" data-tax-check> Tax software selected</label>
+          </article>
+        </div>
+      </section>
+
+      <section id="tax-checklist" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Bitcoin Tax Checklist</p>
+          <h2>Organize records before tax season.</h2>
+          <p>This is not tax advice. It helps readers prepare documents before using tax software or a professional.</p>
+        </div>
+        <div class="score-grid">
+          <article>
+            <span>Checklist</span>
+            <h3 data-tax-list-score>0 of 7 complete</h3>
+            <label><input type="checkbox" data-tax-list-check> Exchange transaction history exported</label>
+            <label><input type="checkbox" data-tax-list-check> Wallet transfers labeled as transfers, not sales</label>
+            <label><input type="checkbox" data-tax-list-check> Cost basis tracked</label>
+            <label><input type="checkbox" data-tax-list-check> Mining, staking, or income events separated</label>
+            <label><input type="checkbox" data-tax-list-check> Gifts, donations, and spending events noted</label>
+            <label><input type="checkbox" data-tax-list-check> Tax software selected</label>
+            <label><input type="checkbox" data-tax-list-check> Professional review planned if activity is complex</label>
+          </article>
+          <article>
+            <span>Next Step</span>
+            <h3>Keep records before you need them.</h3>
+            <p>Tax pages should help readers prepare records before using software or a qualified professional.</p>
+            <a class="button secondary" href="guides.html#tax-software">Read tax guide</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio-allocation" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Portfolio Allocation Tool</p>
+          <h2>What does a 1%, 5%, or 10% Bitcoin allocation mean?</h2>
+          <p>Educational only. This does not recommend an allocation.</p>
+        </div>
+        <div class="selector-grid">
+          <label><span>Portfolio size</span><input type="number" min="0" step="1000" value="10000" data-portfolio-size></label>
+          <label><span>Bitcoin allocation</span><select data-portfolio-allocation><option value="1">1%</option><option value="5" selected>5%</option><option value="10">10%</option></select></label>
+          <label><span>Volatility comfort</span><select data-portfolio-comfort><option value="low">Low</option><option value="medium" selected>Medium</option><option value="high">High</option></select></label>
+        </div>
+        <div class="recommendation-card" data-portfolio-output>
+          <span>Educational estimate</span>
+          <h3>$500 Bitcoin exposure</h3>
+          <p>A 5% allocation means Bitcoin can strongly affect emotions even when it is a small part of the portfolio.</p>
+        </div>
+      </section>
+
+      <section id="inheritance-planner" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Bitcoin Inheritance Planner</p>
+          <h2>Help heirs without exposing funds too early.</h2>
+        </div>
+        <div class="score-grid">
+          <article>
+            <span>Planner</span>
+            <h3 data-inheritance-score>0 of 6 complete</h3>
+            <label><input type="checkbox" data-inheritance-check> Heirs know Bitcoin exists</label>
+            <label><input type="checkbox" data-inheritance-check> Instructions exist without showing seed words</label>
+            <label><input type="checkbox" data-inheritance-check> Trusted contact or professional is named</label>
+            <label><input type="checkbox" data-inheritance-check> Wallet type and recovery process are documented</label>
+            <label><input type="checkbox" data-inheritance-check> Plan avoids putting seed words in a will</label>
+            <label><input type="checkbox" data-inheritance-check> Plan is reviewed after major life changes</label>
+          </article>
+          <article>
+            <span>Rule</span>
+            <h3>Do not expose the seed phrase too early.</h3>
+            <p>The goal is recoverability for heirs without creating an easy theft path while the owner is alive.</p>
+            <a class="button secondary" href="guides.html#inheritance">Read inheritance guide</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="review-queue" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Review Queue</p>
+          <h2>Tools to evaluate carefully.</h2>
+        </div>
+        <div class="review-grid">
+          <article><span>Wallets</span><h3>Check security model.</h3><p>Review source, backup flow, supported address types, and recovery process.</p></article>
+          <article><span>Exchanges</span><h3>Check withdrawal path.</h3><p>Review fees, spread, funding options, country support, and self-custody withdrawals.</p></article>
+          <article><span>Tax Tools</span><h3>Check records support.</h3><p>Review imports, wallet labels, cost basis methods, country support, and export options.</p></article>
+          <article><span>Custody Tools</span><h3>Check failure points.</h3><p>Review key control, recovery planning, policy rules, and operational risk.</p></article>
+        </div>
+      </section>
+
+      <section id="tool-directory" class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Best Tools Directory</p>
+          <h2>Everything a reader might need next.</h2>
+        </div>
+        <div class="compare-table">
+          <article><span>Wallets</span><h3>Hot, desktop, hardware, multisig.</h3><p>Use for wallet education and official source links.</p><a href="resources.html#wallets">Open wallet links</a></article>
+          <article><span>Exchanges</span><h3>Buy and withdraw Bitcoin.</h3><p>Use for exchange comparison and official source links.</p><a href="resources.html#exchanges">Open exchange links</a></article>
+          <article><span>Tax Tools</span><h3>Track records and reporting.</h3><p>Use for record preparation and tax organization.</p><a href="#tax-checklist">Open tax checklist</a></article>
+          <article><span>Security</span><h3>Protect keys and accounts.</h3><p>Use for security keys, seed backups, and custody guides.</p><a href="#bitcoin-safety-score">Open safety score</a></article>
+          <article><span>Books</span><h3>Learn deeper.</h3><p>Use for book lists, free resources, and learning paths.</p><a href="resources.html#education">Open education links</a></article>
+          <article><span>Data</span><h3>Price, blocks, fees, mining.</h3><p>Use for dashboards and source credibility.</p><a href="resources.html#market-data">Open data links</a></article>
+        </div>
+      </section>
+
+      <section class="tool-panel">
+        <div class="section-heading">
+          <p class="section-kicker">Learning Flow</p>
+          <h2>Guides feed the right tools.</h2>
+          <p>When a reader finishes a guide, send them to the relevant checklist, calculator, source page, or next lesson.</p>
+        </div>
+        <div class="recommendation-card">
+          <span>Next Step</span>
+          <h3>Keep every tool educational.</h3>
+          <p>Each tool should help readers understand a decision before they act.</p>
+          <a class="button secondary" href="guides.html">Open Guides</a>
+        </div>
+      </section>
+      <section class="page-section june-17-desk-check" aria-labelledby="june-17-desk-check-title">
+        <div class="section-heading">
+          <p class="section-kicker">June 17 Tools Desk Check</p>
+          <h2 id="june-17-desk-check-title">Tools should make due diligence repeatable.</h2>
+          <p>The tools page should convert today news into checklists for ETF-flow confirmation, RWA product review, payment-rail permissions, and security hygiene.</p>
+        </div>
+        <div class="homepage-trust"><article><span>ETF checklist</span><p>Price move, flow print, liquidity, premium/discount, and macro context.</p></article><article><span>RWA checklist</span><p>Issuer, custody, legal claim, redemption, liquidity, fee, and jurisdiction.</p></article><article><span>Security checklist</span><p>Wallet source, approval limits, recovery claims, payment permissions, and revoke paths.</p></article></div>
+        <div class="hero-actions"><a class="button secondary" href="crypto-news-today.html">Open news</a><a class="button secondary" href="security-alerts.html">Open security</a><a class="button secondary" href="rwa-news.html">Open RWA</a></div>
+      </section>
+    <section class="page-section" data-review="2026-10-15"><div class="section-heading"><p class="section-kicker">Research route · 15 October 2026</p><h2>Tools: a useful next check</h2><p>Link a tool to its method, assumptions, and learning guide.</p></div><div class="hero-actions"><a class="button secondary" href="news-2026-10-15.html">15 October source review</a><a class="button secondary" href="today-source-pack-2026-10-15.html">Original sources</a><a class="button secondary" href="tools-calculators.html">Related guide</a></div></section></main>
+
+    <footer class="site-footer">
+      <div><strong>NAKAMOTO</strong><p>Practical Bitcoin tools for research, planning, and safer decisions.</p></div>
+      <nav><a href="index.html">Home</a><a href="research.html">Research</a><a href="data.html">Data</a><a href="policy.html">Policy</a><a href="library.html">Library</a><a href="resources.html">Resources</a><a href="explore.html">Explore</a><a href="search.html">Search</a></nav>
+    </footer>
+    <script src="script.js?v=20260622-growth-batch1"></script>
+  </body>
+</html>

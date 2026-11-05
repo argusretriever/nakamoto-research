@@ -1,0 +1,249 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 518.5079 28.34646 Tm (Page 165) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 780.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Research databases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 763.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 730.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 714.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 697.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 681.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 664.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 631.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Research databases: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 607.3701 cm
+Q
+q
+1 0 0 1 48.51969 580.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (60. Bitcoin Culture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 562.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (HODL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 545.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 529.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 512.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 496.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 479.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 463.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 446.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 430.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 413.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 397.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 HODL: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 379.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Orange pill) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 362.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 346.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 329.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 313.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 296.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 280.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 263.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 247.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 230.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 214.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Orange pill: Website article idea) Tj T* ET
+Q
+Q
+ 

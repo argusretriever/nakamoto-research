@@ -1,0 +1,60 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 527.4039 28.34646 Tm (Page 2) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 771.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL (How to Use This Blueprint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 729.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Each subcategory can become a pillar page, cluster page, article, guide, glossary entry, calculator page,) Tj T* (comparison page, or research report. The repeated article angles are intentional: they help turn one research) Tj T* (topic into multiple useful website assets without relying on filler.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 721.3701 cm
+Q
+q
+1 0 0 1 48.51969 691.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (Recommended build order:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 673.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Start with Foundations, Protocol Basics, Wallets, Security, Economics, and Beginner Guides.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 655.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Then add Mining, Lightning, Markets, ETFs, Regulation, and On-Chain Analytics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 625.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (\177 Then build advanced sections: Script, Miniscript, Taproot, Covenants, Chain Analysis, Corporate Treasury, and) Tj T* (Geopolitics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 607.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Finally add tools: calculators, glossaries, dashboards, comparison pages, and research databases.) Tj T* ET
+Q
+Q
+ 

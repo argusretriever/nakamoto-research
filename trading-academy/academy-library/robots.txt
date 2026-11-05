@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nakamatoresearch.com/trading-academy/academy-library/sitemap.xml

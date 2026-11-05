@@ -1,0 +1,34 @@
+workflow:
+  rules:
+    - when: never
+
+image: alpine:3.20
+
+stages:
+  - test
+  - deploy
+
+static_audit:
+  stage: test
+  script:
+    - test -f index.html
+    - test -f crypto-news-today.html
+    - test -f news-archive.html
+    - test -f sitemap.xml
+    - test -f feed.xml
+    - test -f robots.txt
+    - grep -q "<title>" index.html
+    - grep -q "Sitemap:" robots.txt
+    - grep -q "crypto-news-today.html" sitemap.xml
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - find . -maxdepth 1 -type f ! -name ".gitlab-ci.yml" ! -name ".gitignore" -exec cp {} public/ \;
+    - cp -R assets calendar-pages tools public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'

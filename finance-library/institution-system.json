@@ -1,0 +1,36 @@
+﻿{
+  "platform": "NAKAMOTO Finance Library",
+  "system": "Long-Term Investing Institution",
+  "purpose": "Build durable authority, repeat usage, educational depth, research discipline, and decision support for long-term wealth builders.",
+  "systems": [
+    "Investor Profiles",
+    "Economic Calendar",
+    "Market History Archive",
+    "Investment Thesis Library",
+    "Case Study Collections",
+    "Investing Wiki",
+    "Portfolio Simulator",
+    "Investor Certifications",
+    "Alerts Center",
+    "Research Centers",
+    "Knowledge Bases",
+    "Educational Academies"
+  ],
+  "trustPrinciples": [
+    "Preserve all historical content",
+    "Separate facts from assumptions",
+    "Link education to tools and definitions",
+    "Prefer process over prediction",
+    "Use archives and case studies to build institutional memory",
+    "Reward disciplined learning through credentials"
+  ],
+  "retentionLoops": [
+    "Economic calendar reminders",
+    "Quarterly portfolio clinic",
+    "Thesis review alerts",
+    "Certification progress",
+    "Market history and case study reading",
+    "Profile-based next steps"
+  ]
+}
+

@@ -1,0 +1,184 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 522.9559 28.34646 Tm (Page 97) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 780.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (PayJoin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 763.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 730.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 714.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 697.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 681.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 664.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 631.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PayJoin: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 597.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Stonewall) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 580.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 564.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 547.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 531.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 514.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 498.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 481.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 465.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 448.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 432.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Stonewall: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 414.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Whirlpool) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 397.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Whirlpool: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 351969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL       wall: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 547.8701 c4 5) TiHx 9  10. lo4o7s4 

@@ -1,0 +1,1143 @@
+﻿{
+    "updated":  "2026-06-21",
+    "items":  [
+                  {
+                      "title":  "Daily Market Briefing: June 22, 2026",
+                      "type":  "Daily Brief",
+                      "category":  "News",
+                      "url":  "./daily-brief-2026-06-22.html",
+                      "summary":  "Ten source-backed pre-market updates covering BLS state labor data, productivity, BEA international transactions, GDP, Personal Income and Outlays, Treasury rates, FOMC materials, SEC EDGAR, ICI flows, and portfolio discipline.",
+                      "tags":  [
+                                   "news",
+                                   "daily brief",
+                                   "june 22 2026",
+                                   "market briefing",
+                                   "bls",
+                                   "bea",
+                                   "federal reserve",
+                                   "treasury",
+                                   "sec edgar",
+                                   "ici",
+                                   "investor.gov",
+                                   "productivity",
+                                   "gdp",
+                                   "personal income",
+                                   "yield curve"
+                               ]
+                  },
+                  {
+                      "title":  "Daily Market Briefing: June 21, 2026",
+                      "type":  "Daily Brief",
+                      "category":  "News",
+                      "url":  "./daily-brief-2026-06-21.html",
+                      "summary":  "Ten source-backed Sunday desk updates covering BLS release calendar, productivity, GDP and PCE checkpoints, CPI composition, Federal Reserve calendar, Treasury yield curve, SEC EDGAR filings, ICI flows, and Investor.gov education.",
+                      "tags":  [
+                                   "news",
+                                   "daily brief",
+                                   "june 21 2026",
+                                   "market briefing",
+                                   "bls",
+                                   "bea",
+                                   "fed",
+                                   "treasury",
+                                   "sec edgar",
+                                   "ici",
+                                   "investor.gov",
+                                   "inflation",
+                                   "gdp",
+                                   "pce",
+                                   "yield curve"
+                               ]
+                  },
+                  {
+                      "title":  "The quiet power of a rebalancing policy",
+                      "type":  "Article",
+                      "category":  "Portfolios",
+                      "url":  "./article-template.html",
+                      "summary":  "Why allocation bands can improve investor behavior more than another forecast.",
+                      "tags":  [
+                                   "portfolio",
+                                   "rebalancing",
+                                   "behavior",
+                                   "policy"
+                               ]
+                  },
+                  {
+                      "title":  "How to compare two ETFs that seem identical",
+                      "type":  "Guide",
+                      "category":  "ETFs",
+                      "url":  "./research-library.html",
+                      "summary":  "A fund comparison framework covering holdings, spreads, fees, and index methodology.",
+                      "tags":  [
+                                   "etf",
+                                   "funds",
+                                   "fees",
+                                   "overlap"
+                               ]
+                  },
+                  {
+                      "title":  "Weekly Market Brief",
+                      "type":  "Market Note",
+                      "category":  "Markets",
+                      "url":  "./news.html",
+                      "summary":  "Daily and weekly market notes organized by valuation, rates, earnings, breadth, and risk appetite.",
+                      "tags":  [
+                                   "markets",
+                                   "news",
+                                   "weekly",
+                                   "regime"
+                               ]
+                  },
+                  {
+                      "title":  "Daily source-backed news board",
+                      "type":  "News",
+                      "category":  "News",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Ten visible daily news events with headlines, investor context, source links, and next steps covering CPI, payrolls, PPI, GDP, Fed policy, PCE, ETF flows, EDGAR filings, and portfolio actions.",
+                      "tags":  [
+                                   "news",
+                                   "daily",
+                                   "headlines",
+                                   "sources",
+                                   "cpi",
+                                   "payrolls",
+                                   "ppi",
+                                   "gdp",
+                                   "fed",
+                                   "pce",
+                                   "etf",
+                                   "edgar"
+                               ]
+                  },
+                  {
+                      "title":  "May 2026 CPI: What Inflation Means for Investors",
+                      "type":  "Article",
+                      "category":  "Markets",
+                      "url":  "./article-cpi-may-2026.html",
+                      "summary":  "Source-backed inflation article using BLS CPI data, portfolio implications, investor questions, and related market context.",
+                      "tags":  [
+                                   "cpi",
+                                   "inflation",
+                                   "markets",
+                                   "portfolio",
+                                   "bls"
+                               ]
+                  },
+                  {
+                      "title":  "Q1 2026 GDP: Growth Context for Investors",
+                      "type":  "Article",
+                      "category":  "Markets",
+                      "url":  "./article-gdp-q1-2026.html",
+                      "summary":  "BEA-sourced growth article connecting GDP, earnings, sectors, margins, and allocation assumptions.",
+                      "tags":  [
+                                   "gdp",
+                                   "bea",
+                                   "growth",
+                                   "earnings",
+                                   "markets"
+                               ]
+                  },
+                  {
+                      "title":  "How to Read the FOMC Calendar as an Investor",
+                      "type":  "Article",
+                      "category":  "Markets",
+                      "url":  "./article-fomc-rate-calendar-2026.html",
+                      "summary":  "Guide to Federal Reserve statements, minutes, projections, and rate-sensitive portfolio questions.",
+                      "tags":  [
+                                   "fomc",
+                                   "rates",
+                                   "federal reserve",
+                                   "bonds",
+                                   "macro"
+                               ]
+                  },
+                  {
+                      "title":  "ETF Fee Checklist: Compare Costs Before Tickers",
+                      "type":  "Guide",
+                      "category":  "ETFs",
+                      "url":  "./article-etf-fee-checklist.html",
+                      "summary":  "ETF due-diligence guide covering expense ratios, spreads, tracking difference, holdings overlap, taxes, and fund role.",
+                      "tags":  [
+                                   "etf",
+                                   "fees",
+                                   "funds",
+                                   "finra",
+                                   "sec"
+                               ]
+                  },
+                  {
+                      "title":  "Rebalancing Policy: A Quiet Edge for Long-Term Investors",
+                      "type":  "Article",
+                      "category":  "Portfolios",
+                      "url":  "./article-rebalancing-policy.html",
+                      "summary":  "Portfolio guide explaining allocation bands, review cadence, tax awareness, and behavior control.",
+                      "tags":  [
+                                   "rebalancing",
+                                   "portfolio",
+                                   "allocation",
+                                   "behavior",
+                                   "policy"
+                               ]
+                  },
+                  {
+                      "title":  "Opening Bell Brief",
+                      "type":  "Daily News",
+                      "category":  "News",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "The first daily update covering futures, rates, global markets, and the question investors should ask before the open.",
+                      "tags":  [
+                                   "daily news",
+                                   "market open",
+                                   "pre-market",
+                                   "briefing"
+                               ]
+                  },
+                  {
+                      "title":  "Rates and Economic Watch",
+                      "type":  "Daily News",
+                      "category":  "Markets",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily macro update for inflation, jobs, central-bank messaging, bond yields, and policy expectations.",
+                      "tags":  [
+                                   "rates",
+                                   "macro",
+                                   "economy",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Index and Breadth Check",
+                      "type":  "Daily News",
+                      "category":  "Markets",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily read on major indexes, breadth, volatility, and risk appetite.",
+                      "tags":  [
+                                   "indexes",
+                                   "breadth",
+                                   "volatility",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "ETF Flow Monitor",
+                      "type":  "Daily News",
+                      "category":  "ETFs",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily ETF flow and liquidity context that treats fund movement as behavior, not prediction.",
+                      "tags":  [
+                                   "etf",
+                                   "flows",
+                                   "liquidity",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Earnings Signal",
+                      "type":  "Daily News",
+                      "category":  "Stocks",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily earnings update for guidance, revisions, margins, revenue quality, and sector clues.",
+                      "tags":  [
+                                   "earnings",
+                                   "stocks",
+                                   "revisions",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Sector Rotation Note",
+                      "type":  "Daily News",
+                      "category":  "Markets",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily sector leadership update across defensive, cyclical, growth, dividend, and quality areas.",
+                      "tags":  [
+                                   "sectors",
+                                   "rotation",
+                                   "leadership",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Watchlist Pulse",
+                      "type":  "Daily News",
+                      "category":  "Stocks",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily stock watchlist note focused on quality companies, valuation discipline, balance sheets, and business updates.",
+                      "tags":  [
+                                   "watchlist",
+                                   "stocks",
+                                   "quality",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Portfolio Implication",
+                      "type":  "Daily News",
+                      "category":  "Portfolios",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "Daily translation of market action into allocation, rebalancing, risk budget, and investor behavior context.",
+                      "tags":  [
+                                   "portfolio",
+                                   "allocation",
+                                   "rebalancing",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Investor Lesson",
+                      "type":  "Daily News",
+                      "category":  "Learn",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "One durable investing principle connected to the day\u0027s market behavior.",
+                      "tags":  [
+                                   "education",
+                                   "lesson",
+                                   "behavior",
+                                   "daily news"
+                               ]
+                  },
+                  {
+                      "title":  "Closing Market Recap",
+                      "type":  "Daily News",
+                      "category":  "News",
+                      "url":  "./news.html#daily-briefing",
+                      "summary":  "The final daily update summarizing what changed by the close, what mattered, and what to watch tomorrow.",
+                      "tags":  [
+                                   "closing recap",
+                                   "markets",
+                                   "daily news",
+                                   "archive"
+                               ]
+                  },
+                  {
+                      "title":  "Quality Stock Research Report",
+                      "type":  "Research Report",
+                      "category":  "Stocks",
+                      "url":  "./reports.html",
+                      "summary":  "A repeatable research-report format for business quality, cash flow, balance sheet, and valuation.",
+                      "tags":  [
+                                   "stocks",
+                                   "research",
+                                   "valuation",
+                                   "quality"
+                               ]
+                  },
+                  {
+                      "title":  "Compound growth calculator",
+                      "type":  "Tool",
+                      "category":  "Tools",
+                      "url":  "./tools.html",
+                      "summary":  "Estimate future value from starting balance, monthly contributions, return, and time.",
+                      "tags":  [
+                                   "calculator",
+                                   "compound",
+                                   "tools"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Daily Brief",
+                      "type":  "Newsletter",
+                      "category":  "Newsletters",
+                      "url":  "./newsletters.html",
+                      "summary":  "Daily market context, weekly recap, monthly field guide, and evergreen learning prompts.",
+                      "tags":  [
+                                   "newsletter",
+                                   "daily",
+                                   "weekly",
+                                   "recap"
+                               ]
+                  },
+                  {
+                      "title":  "Investing hub",
+                      "type":  "Hub",
+                      "category":  "Investing",
+                      "url":  "./investing.html",
+                      "summary":  "Foundations, strategy, behavior, planning, and long-term wealth-building roadmaps.",
+                      "tags":  [
+                                   "investing",
+                                   "foundations",
+                                   "strategy",
+                                   "behavior"
+                               ]
+                  },
+                  {
+                      "title":  "Learn hub",
+                      "type":  "Hub",
+                      "category":  "Learn",
+                      "url":  "./learn.html",
+                      "summary":  "Structured investing education, roadmaps, ETF primers, portfolio guides, and glossary learning paths.",
+                      "tags":  [
+                                   "learn",
+                                   "education",
+                                   "academy",
+                                   "roadmaps"
+                               ]
+                  },
+                  {
+                      "title":  "ETF education hub",
+                      "type":  "Hub",
+                      "category":  "ETFs",
+                      "url":  "./etfs.html",
+                      "summary":  "ETF education, comparison, fees, overlap, liquidity, tax efficiency, and due diligence.",
+                      "tags":  [
+                                   "etf",
+                                   "funds",
+                                   "comparison",
+                                   "fees"
+                               ]
+                  },
+                  {
+                      "title":  "Stocks research hub",
+                      "type":  "Hub",
+                      "category":  "Stocks",
+                      "url":  "./stocks.html",
+                      "summary":  "Business quality, valuation, free cash flow, dividends, risk, and watchlist research.",
+                      "tags":  [
+                                   "stocks",
+                                   "valuation",
+                                   "cash flow",
+                                   "watchlist"
+                               ]
+                  },
+                  {
+                      "title":  "Portfolios hub",
+                      "type":  "Hub",
+                      "category":  "Portfolios",
+                      "url":  "./portfolios.html",
+                      "summary":  "Asset allocation, rebalancing, policy statements, tax location, and retirement income.",
+                      "tags":  [
+                                   "portfolio",
+                                   "allocation",
+                                   "rebalancing",
+                                   "policy"
+                               ]
+                  },
+                  {
+                      "title":  "Insights hub",
+                      "type":  "Hub",
+                      "category":  "Insights",
+                      "url":  "./insights.html",
+                      "summary":  "Market analysis, behavior, research collections, long-form commentary, and charts that matter.",
+                      "tags":  [
+                                   "insights",
+                                   "analysis",
+                                   "markets",
+                                   "behavior"
+                               ]
+                  },
+                  {
+                      "title":  "Model portfolio library",
+                      "type":  "Portfolio System",
+                      "category":  "Portfolios",
+                      "url":  "./model-portfolios.html",
+                      "summary":  "Reference allocation playbooks for growth, preservation, retirement income, taxable accounts, and rebalancing reviews.",
+                      "tags":  [
+                                   "model portfolios",
+                                   "allocation",
+                                   "rebalancing",
+                                   "policy"
+                               ]
+                  },
+                  {
+                      "title":  "Investment frameworks",
+                      "type":  "Framework Library",
+                      "category":  "Research",
+                      "url":  "./frameworks.html",
+                      "summary":  "Reusable decision systems for ETF diligence, stock quality, portfolio policy, valuation, regimes, and behavior.",
+                      "tags":  [
+                                   "frameworks",
+                                   "research",
+                                   "decision systems",
+                                   "scorecards"
+                               ]
+                  },
+                  {
+                      "title":  "Resource library",
+                      "type":  "Resource Center",
+                      "category":  "Resources",
+                      "url":  "./resources.html",
+                      "summary":  "Templates, worksheets, checklists, glossary paths, briefing archives, and evergreen investor references.",
+                      "tags":  [
+                                   "resources",
+                                   "templates",
+                                   "checklists",
+                                   "worksheets"
+                               ]
+                  },
+                  {
+                      "title":  "Trending and related content",
+                      "type":  "Discovery System",
+                      "category":  "Trending",
+                      "url":  "./trending.html",
+                      "summary":  "Current reading rails, most-saved resources, editor picks, and guided next-step pathways.",
+                      "tags":  [
+                                   "trending",
+                                   "related articles",
+                                   "discovery",
+                                   "editor picks"
+                               ]
+                  },
+                  {
+                      "title":  "Visual research dashboard",
+                      "type":  "Dashboard",
+                      "category":  "Markets",
+                      "url":  "./research-dashboard.html",
+                      "summary":  "Market regime graphics, valuation heat maps, ETF overlap visuals, allocation maps, and infographic systems.",
+                      "tags":  [
+                                   "dashboard",
+                                   "infographics",
+                                   "markets",
+                                   "data visualization"
+                               ]
+                  },
+                  {
+                      "title":  "Wealth Journey",
+                      "type":  "Journey System",
+                      "category":  "Learn",
+                      "url":  "./wealth-journey.html",
+                      "summary":  "Guided investor progression through assessment, goals, Academy learning, Portfolio Clinic, Market Pulse, Research Lab, and Global Markets.",
+                      "tags":  [
+                                   "journey",
+                                   "progress",
+                                   "learning path",
+                                   "assessment"
+                               ]
+                  },
+                  {
+                      "title":  "Investor IQ Assessment",
+                      "type":  "Assessment",
+                      "category":  "Learn",
+                      "url":  "./investor-iq.html",
+                      "summary":  "Evaluate investing process, behavior, fund understanding, research confidence, and review discipline.",
+                      "tags":  [
+                                   "assessment",
+                                   "investor iq",
+                                   "education",
+                                   "personalization"
+                               ]
+                  },
+                  {
+                      "title":  "Goal-Based Investing Hub",
+                      "type":  "Hub",
+                      "category":  "Investing",
+                      "url":  "./goal-based-investing.html",
+                      "summary":  "Convert goals into portfolio jobs, risk budgets, time horizons, asset roles, and review cadence.",
+                      "tags":  [
+                                   "goals",
+                                   "planning",
+                                   "portfolio",
+                                   "risk"
+                               ]
+                  },
+                  {
+                      "title":  "Portfolio Clinic",
+                      "type":  "Tool",
+                      "category":  "Portfolios",
+                      "url":  "./portfolio-clinic.html",
+                      "summary":  "Portfolio checkup for policy, allocation, fees, overlap, concentration, tax location, liquidity, and rebalancing.",
+                      "tags":  [
+                                   "portfolio clinic",
+                                   "audit",
+                                   "fees",
+                                   "overlap"
+                               ]
+                  },
+                  {
+                      "title":  "Market Pulse",
+                      "type":  "Dashboard",
+                      "category":  "Markets",
+                      "url":  "./market-pulse.html",
+                      "summary":  "Market dashboard for valuation, rates, earnings, breadth, risk appetite, ETF flows, and portfolio action.",
+                      "tags":  [
+                                   "market pulse",
+                                   "markets",
+                                   "dashboard",
+                                   "valuation"
+                               ]
+                  },
+                  {
+                      "title":  "Research Lab",
+                      "type":  "Learning Lab",
+                      "category":  "Research",
+                      "url":  "./research-lab.html",
+                      "summary":  "Practice ETF comparison, stock quality research, portfolio thesis writing, valuation ranges, and decision logs.",
+                      "tags":  [
+                                   "research lab",
+                                   "practice",
+                                   "frameworks",
+                                   "analysis"
+                               ]
+                  },
+                  {
+                      "title":  "Global Markets Hub",
+                      "type":  "Hub",
+                      "category":  "Markets",
+                      "url":  "./global-markets.html",
+                      "summary":  "Cross-asset global market context across regions, rates, currencies, commodities, sectors, and international ETFs.",
+                      "tags":  [
+                                   "global markets",
+                                   "international",
+                                   "rates",
+                                   "currencies"
+                               ]
+                  },
+                  {
+                      "title":  "Trading Academy",
+                      "type":  "Academy",
+                      "category":  "Learn",
+                      "url":  "./trading-academy.html",
+                      "summary":  "Disciplined trading curriculum covering fundamentals, market structure, technical analysis, risk management, position sizing, psychology, journaling, backtesting, execution, and professional frameworks.",
+                      "tags":  [
+                                   "trading",
+                                   "academy",
+                                   "risk management",
+                                   "position sizing",
+                                   "technical analysis",
+                                   "backtesting",
+                                   "journal"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Institution",
+                      "type":  "Platform System",
+                      "category":  "Institution",
+                      "url":  "./institution.html",
+                      "summary":  "Institutional systems for investor profiles, calendars, history, thesis archives, case studies, wiki, simulator, certifications, and alerts.",
+                      "tags":  [
+                                   "institution",
+                                   "authority",
+                                   "trust",
+                                   "systems",
+                                   "resources"
+                               ]
+                  },
+                  {
+                      "title":  "Investor Profiles",
+                      "type":  "Personalization",
+                      "category":  "Learn",
+                      "url":  "./investor-profiles.html",
+                      "summary":  "Profile-based paths for beginners, accumulators, researchers, retirees, income investors, and active traders.",
+                      "tags":  [
+                                   "profiles",
+                                   "personalization",
+                                   "learning path",
+                                   "investor type"
+                               ]
+                  },
+                  {
+                      "title":  "Economic Calendar",
+                      "type":  "Market Hub",
+                      "category":  "Markets",
+                      "url":  "./economic-calendar.html",
+                      "summary":  "Calendar hub for inflation, central banks, jobs, earnings, GDP, auctions, and portfolio review events.",
+                      "tags":  [
+                                   "economic calendar",
+                                   "events",
+                                   "inflation",
+                                   "fed",
+                                   "earnings"
+                               ]
+                  },
+                  {
+                      "title":  "Market History Archive",
+                      "type":  "Archive",
+                      "category":  "Markets",
+                      "url":  "./market-history.html",
+                      "summary":  "Market history lessons from drawdowns, recoveries, inflation regimes, bubbles, valuation extremes, and rate cycles.",
+                      "tags":  [
+                                   "market history",
+                                   "cycles",
+                                   "drawdowns",
+                                   "archive"
+                               ]
+                  },
+                  {
+                      "title":  "Investment Thesis Library",
+                      "type":  "Research System",
+                      "category":  "Research",
+                      "url":  "./thesis-library.html",
+                      "summary":  "Structured thesis formats for stocks, ETFs, sectors, macro, income, risks, catalysts, valuation, and review triggers.",
+                      "tags":  [
+                                   "thesis",
+                                   "research",
+                                   "valuation",
+                                   "risks",
+                                   "catalysts"
+                               ]
+                  },
+                  {
+                      "title":  "Case Study Collections",
+                      "type":  "Education",
+                      "category":  "Learn",
+                      "url":  "./case-studies.html",
+                      "summary":  "Investing case studies covering bubbles, drawdowns, compounding, funds, retirement, and behavioral mistakes.",
+                      "tags":  [
+                                   "case studies",
+                                   "history",
+                                   "behavior",
+                                   "learning"
+                               ]
+                  },
+                  {
+                      "title":  "Investing Wiki",
+                      "type":  "Knowledge Base",
+                      "category":  "Glossary",
+                      "url":  "./investing-wiki.html",
+                      "summary":  "Structured investing knowledge base for asset classes, portfolio rules, research methods, market structure, risk, behavior, taxes, and accounts.",
+                      "tags":  [
+                                   "wiki",
+                                   "knowledge base",
+                                   "glossary",
+                                   "concepts"
+                               ]
+                  },
+                  {
+                      "title":  "Portfolio Simulator",
+                      "type":  "Tool",
+                      "category":  "Tools",
+                      "url":  "./portfolio-simulator.html",
+                      "summary":  "Scenario planner for balance, contributions, expected return, equity allocation, estimated future value, and drawdown context.",
+                      "tags":  [
+                                   "portfolio simulator",
+                                   "scenario",
+                                   "calculator",
+                                   "allocation"
+                               ]
+                  },
+                  {
+                      "title":  "Investor Certifications",
+                      "type":  "Certification",
+                      "category":  "Learn",
+                      "url":  "./certifications.html",
+                      "summary":  "Structured credentials for foundations, ETF analysis, portfolio building, research, retirement, and trading discipline.",
+                      "tags":  [
+                                   "certifications",
+                                   "credentials",
+                                   "academy",
+                                   "progress"
+                               ]
+                  },
+                  {
+                      "title":  "Alerts Center",
+                      "type":  "Tool",
+                      "category":  "Tools",
+                      "url":  "./alerts.html",
+                      "summary":  "Local alert system for economic events, portfolio reviews, thesis reviews, watchlist follow-ups, and learning reminders.",
+                      "tags":  [
+                                   "alerts",
+                                   "reminders",
+                                   "calendar",
+                                   "watchlist",
+                                   "retention"
+                               ]
+                  },
+                  {
+                      "title":  "Privacy Policy",
+                      "type":  "Policy",
+                      "category":  "Legal",
+                      "url":  "./privacy.html",
+                      "summary":  "NAKAMOTO Finance Library privacy notes for local storage, newsletter forms, educational use, and future service updates.",
+                      "tags":  [
+                                   "privacy",
+                                   "policy",
+                                   "local storage",
+                                   "newsletter"
+                               ]
+                  },
+                  {
+                      "title":  "Terms of Use",
+                      "type":  "Policy",
+                      "category":  "Legal",
+                      "url":  "./terms.html",
+                      "summary":  "Terms covering educational use, tool limitations, no personalized advice, and responsible investing use.",
+                      "tags":  [
+                                   "terms",
+                                   "policy",
+                                   "educational",
+                                   "tools"
+                               ]
+                  },
+                  {
+                      "title":  "Disclosures",
+                      "type":  "Policy",
+                      "category":  "Legal",
+                      "url":  "./disclosures.html",
+                      "summary":  "Disclosures for market risk, research limits, trading risk, calculators, simulations, and no guarantees.",
+                      "tags":  [
+                                   "disclosures",
+                                   "risk",
+                                   "investing",
+                                   "trading"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Publishing System",
+                      "type":  "Editorial System",
+                      "category":  "Publishing",
+                      "url":  "./publishing-system.html",
+                      "summary":  "High-volume publishing architecture for daily news, market analysis, evergreen guides, research reports, academies, newsletters, archives, and discovery.",
+                      "tags":  [
+                                   "publishing",
+                                   "content architecture",
+                                   "daily news",
+                                   "research reports",
+                                   "editorial workflow",
+                                   "archives"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Content Audit",
+                      "type":  "Editorial System",
+                      "category":  "Publishing",
+                      "url":  "./content-audit.html",
+                      "summary":  "Production content audit covering thin pages, missing sources, news credibility, related content, article depth, and editorial recommendations.",
+                      "tags":  [
+                                   "content audit",
+                                   "missing content",
+                                   "sources",
+                                   "editorial quality",
+                                   "site audit"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Value Upgrade Report",
+                      "type":  "Editorial System",
+                      "category":  "Publishing",
+                      "url":  "./value-upgrade-report.html",
+                      "summary":  "Report documenting the site-wide value upgrade: guides, FAQs, checklists, related resources, complete articles, and remaining weak areas.",
+                      "tags":  [
+                                   "value upgrade",
+                                   "content completion",
+                                   "visitor value",
+                                   "website audit",
+                                   "editorial quality"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Authors",
+                      "type":  "Editorial System",
+                      "category":  "Publishing",
+                      "url":  "./authors.html",
+                      "summary":  "Author and editorial desk directory for markets, ETFs, stocks, portfolios, education, trading, research, newsletters, and knowledge base work.",
+                      "tags":  [
+                                   "authors",
+                                   "bylines",
+                                   "editorial desks",
+                                   "trust",
+                                   "research"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Topic Directory",
+                      "type":  "Editorial System",
+                      "category":  "Publishing",
+                      "url":  "./topics.html",
+                      "summary":  "Category and tag system for investing guides, ETFs, stocks, markets, tools, academies, research reports, glossary entries, and archives.",
+                      "tags":  [
+                                   "topics",
+                                   "tags",
+                                   "categories",
+                                   "internal linking",
+                                   "search",
+                                   "content discovery"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Editorial Calendar",
+                      "type":  "Editorial System",
+                      "category":  "Publishing",
+                      "url":  "./editorial-calendar.html",
+                      "summary":  "Daily, weekly, monthly, and quarterly publishing cadence for a high-output investment newsroom.",
+                      "tags":  [
+                                   "editorial calendar",
+                                   "daily publishing",
+                                   "weekly reports",
+                                   "monthly reports",
+                                   "content operations"
+                               ]
+                  },
+                  {
+                      "title":  "Contact NAKAMOTO Finance Library",
+                      "type":  "Support",
+                      "category":  "Trust",
+                      "url":  "./contact.html",
+                      "summary":  "Contact routes for corrections, editorial suggestions, newsletter support, platform issues, partnerships, and privacy questions.",
+                      "tags":  [
+                                   "contact",
+                                   "support",
+                                   "corrections",
+                                   "editorial",
+                                   "newsletter",
+                                   "privacy"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library FAQ",
+                      "type":  "FAQ",
+                      "category":  "Trust",
+                      "url":  "./faq.html",
+                      "summary":  "Frequently asked questions covering educational content, tools, calculators, newsletters, privacy, accounts, market data, and disclosures.",
+                      "tags":  [
+                                   "faq",
+                                   "questions",
+                                   "support",
+                                   "privacy",
+                                   "tools",
+                                   "education"
+                               ]
+                  },
+                  {
+                      "title":  "Investing glossary",
+                      "type":  "Knowledge Center",
+                      "category":  "Glossary",
+                      "url":  "./glossary.html",
+                      "summary":  "Definitions and concept pages for investing terms, ETF language, portfolios, and markets.",
+                      "tags":  [
+                                   "glossary",
+                                   "definitions",
+                                   "education"
+                               ]
+                  },
+                  {
+                      "title":  "Historical archive",
+                      "type":  "Archive",
+                      "category":  "Archives",
+                      "url":  "./archives.html",
+                      "summary":  "A preservation layer for every article, report, guide, market note, and resource.",
+                      "tags":  [
+                                   "archive",
+                                   "history",
+                                   "discovery"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library UX Review Report",
+                      "type":  "Report",
+                      "category":  "Trust",
+                      "url":  "./ux-review-report.html",
+                      "summary":  "Visitor-centered UX review covering frustrations found, journey issues, fixes made, and remaining product risks.",
+                      "tags":  [
+                                   "ux",
+                                   "review",
+                                   "mobile",
+                                   "navigation",
+                                   "tools",
+                                   "trust"
+                               ]
+                  },
+                  {
+                      "title":  "About NAKAMOTO Finance Library",
+                      "type":  "Trust Page",
+                      "category":  "Trust",
+                      "url":  "./about.html",
+                      "summary":  "Mission, investor promise, editorial independence, and NAKAMOTO Finance Library platform identity.",
+                      "tags":  [
+                                   "about",
+                                   "mission",
+                                   "trust",
+                                   "nakamoto-finance-library"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Editorial Standards",
+                      "type":  "Policy",
+                      "category":  "Trust",
+                      "url":  "./editorial-standards.html",
+                      "summary":  "Sourcing, corrections, updates, conflicts, AI assistance, and educational framing standards.",
+                      "tags":  [
+                                   "editorial",
+                                   "standards",
+                                   "trust",
+                                   "sources"
+                               ]
+                  },
+                  {
+                      "title":  "NAKAMOTO Finance Library Source Policy",
+                      "type":  "Policy",
+                      "category":  "Trust",
+                      "url":  "./source-policy.html",
+                      "summary":  "How NAKAMOTO Finance Library selects official sources, filings, ETF documents, economic data, and education references.",
+                      "tags":  [
+                                   "sources",
+                                   "citations",
+                                   "methodology",
+                                   "trust"
+                               ]
+                  },
+                  {
+                      "title":  "Sample Daily Briefing",
+                      "type":  "Newsletter Sample",
+                      "category":  "News",
+                      "url":  "./sample-briefing.html",
+                      "summary":  "A sample source-backed daily market briefing with headlines, investor context, portfolio questions, and next reads.",
+                      "tags":  [
+                                   "daily brief",
+                                   "newsletter",
+                                   "news",
+                                   "sources"
+                               ]
+                  },
+                  {
+                      "title":  "Downloads and Investor Templates",
+                      "type":  "Resource",
+                      "category":  "Resources",
+                      "url":  "./downloads.html",
+                      "summary":  "Investor templates, checklists, worksheets, policy statements, ETF comparison resources, and market review prompts.",
+                      "tags":  [
+                                   "downloads",
+                                   "templates",
+                                   "checklists",
+                                   "resources"
+                               ]
+                  },
+                  {
+                      "title":  "Thank You and Next Paths",
+                      "type":  "Onboarding",
+                      "category":  "Newsletter",
+                      "url":  "./thank-you.html",
+                      "summary":  "Post-subscription onboarding page that routes readers into academy, ETFs, portfolios, markets, stocks, and trading.",
+                      "tags":  [
+                                   "thank you",
+                                   "onboarding",
+                                   "newsletter",
+                                   "journey"
+                               ]
+                  },
+                  {
+                      "title":  "Investor Knowledge Compendium",
+                      "type":  "Knowledge Base",
+                      "category":  "Learn",
+                      "url":  "./investing-wiki.html#knowledge-compendium",
+                      "summary":  "Core investing concepts explained with what it is, why it matters, how to use it, examples, mistakes, sources, and next steps.",
+                      "tags":  [
+                                   "knowledge",
+                                   "investing",
+                                   "wiki",
+                                   "education"
+                               ]
+                  },
+                  {
+                      "title":  "Expanded Investing Definitions",
+                      "type":  "Glossary",
+                      "category":  "Learn",
+                      "url":  "./glossary.html#expanded-definitions",
+                      "summary":  "Plain-English investing definitions with examples and common mistakes for asset allocation, duration, ETF spreads, free cash flow, index methodology, risk capacity, sequence risk, and tax location.",
+                      "tags":  [
+                                   "glossary",
+                                   "definitions",
+                                   "investing terms",
+                                   "education"
+                               ]
+                  },
+                  {
+                      "title":  "Foundation Curriculum",
+                      "type":  "Learning Path",
+                      "category":  "Academy",
+                      "url":  "./academy.html#foundation-curriculum",
+                      "summary":  "Six practical lessons covering cash buffers, accounts, allocation, market news, portfolio policy, and review cadence.",
+                      "tags":  [
+                                   "academy",
+                                   "curriculum",
+                                   "beginner",
+                                   "roadmap"
+                               ]
+                  },
+                  {
+                      "title":  "Research Playbooks",
+                      "type":  "Research Framework",
+                      "category":  "Research",
+                      "url":  "./research-library.html#research-playbooks",
+                      "summary":  "ETF, stock, macro, portfolio, behavior, and publishing playbooks for creating complete source-backed research notes.",
+                      "tags":  [
+                                   "research",
+                                   "playbooks",
+                                   "frameworks",
+                                   "methodology"
+                               ]
+                  },
+                  {
+                      "title":  "How to Compare ETFs",
+                      "type":  "Guide",
+                      "category":  "ETFs",
+                      "url":  "./guide-etf-comparison.html",
+                      "summary":  "Compare ETFs by portfolio role, index methodology, holdings, liquidity, tax profile, tracking, costs, and overlap.",
+                      "tags":  [
+                                   "etf",
+                                   "comparison",
+                                   "funds",
+                                   "fees",
+                                   "index methodology"
+                               ]
+                  },
+                  {
+                      "title":  "How to Write a Stock Investment Thesis",
+                      "type":  "Guide",
+                      "category":  "Stocks",
+                      "url":  "./guide-stock-thesis.html",
+                      "summary":  "Build a stock thesis with business quality, cash flow, valuation, risks, source evidence, and update triggers.",
+                      "tags":  [
+                                   "stocks",
+                                   "thesis",
+                                   "valuation",
+                                   "cash flow",
+                                   "research"
+                               ]
+                  },
+                  {
+                      "title":  "Investment Policy Statement Guide",
+                      "type":  "Guide",
+                      "category":  "Portfolios",
+                      "url":  "./guide-portfolio-policy.html",
+                      "summary":  "Write a portfolio policy statement covering goals, allocation, rebalancing, cash rules, tax awareness, and review cadence.",
+                      "tags":  [
+                                   "portfolio",
+                                   "policy",
+                                   "rebalancing",
+                                   "allocation",
+                                   "ips"
+                               ]
+                  },
+                  {
+                      "title":  "How to Read Market News",
+                      "type":  "Guide",
+                      "category":  "News",
+                      "url":  "./guide-market-news.html",
+                      "summary":  "Read market headlines through an action, review, save, or ignore framework with source-backed context.",
+                      "tags":  [
+                                   "news",
+                                   "markets",
+                                   "cpi",
+                                   "fomc",
+                                   "headlines"
+                               ]
+                  },
+                  {
+                      "title":  "Retirement Income Planning Guide",
+                      "type":  "Guide",
+                      "category":  "Portfolios",
+                      "url":  "./guide-retirement-income.html",
+                      "summary":  "Understand sequence risk, withdrawal rules, cash buffers, bond duration, inflation, taxes, and retirement review habits.",
+                      "tags":  [
+                                   "retirement",
+                                   "income",
+                                   "withdrawals",
+                                   "sequence risk",
+                                   "portfolio"
+                               ]
+                  },
+                  {
+                      "title":  "Calculator Assumptions Guide",
+                      "type":  "Guide",
+                      "category":  "Tools",
+                      "url":  "./guide-calculator-assumptions.html",
+                      "summary":  "Use investing calculators responsibly with visible assumptions, ranges, inflation, fees, taxes, and scenario analysis.",
+                      "tags":  [
+                                   "calculator",
+                                   "assumptions",
+                                   "tools",
+                                   "scenario analysis",
+                                   "planning"
+                               ]
+                  }
+              ]
+}

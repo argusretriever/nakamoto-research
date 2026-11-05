@@ -1,0 +1,59 @@
+﻿{
+  "platform": "NAKAMOTO Finance Library",
+  "system": "Wealth Journey",
+  "purpose": "Guide users from beginner to advanced investor through assessment, goals, learning, portfolio review, market context, research practice, and ongoing progress.",
+  "stages": [
+    {
+      "name": "Investor IQ",
+      "url": "./investor-iq.html",
+      "job": "Assess knowledge, behavior, fund understanding, research confidence, and review discipline."
+    },
+    {
+      "name": "Goal-Based Investing",
+      "url": "./goal-based-investing.html",
+      "job": "Convert financial goals into portfolio jobs, risk budgets, time horizons, and review cadence."
+    },
+    {
+      "name": "Investor Academy",
+      "url": "./academy.html",
+      "job": "Teach foundations, portfolio construction, research, valuation, retirement income, and behavior."
+    },
+    {
+      "name": "Portfolio Clinic",
+      "url": "./portfolio-clinic.html",
+      "job": "Audit fees, overlap, concentration, tax location, liquidity, policy, and rebalancing rules."
+    },
+    {
+      "name": "Market Pulse",
+      "url": "./market-pulse.html",
+      "job": "Frame valuation, rates, earnings, breadth, risk appetite, flows, and portfolio implications."
+    },
+    {
+      "name": "Research Lab",
+      "url": "./research-lab.html",
+      "job": "Practice ETF comparison, stock quality analysis, portfolio thesis writing, valuation ranges, and decision logs."
+    },
+    {
+      "name": "Global Markets",
+      "url": "./global-markets.html",
+      "job": "Build cross-asset context across regions, rates, currencies, commodities, sectors, and global ETFs."
+    }
+  ],
+  "progressSignals": [
+    "Investor IQ score",
+    "Journey milestones",
+    "Achievement unlocks",
+    "Portfolio clinic score",
+    "Saved resources",
+    "Watchlist items",
+    "Weekly ritual completion"
+  ],
+  "retentionLoops": [
+    "Weekly Market Pulse review",
+    "Quarterly Portfolio Clinic",
+    "Monthly Research Lab exercise",
+    "Annual goal and policy review",
+    "Ongoing Academy progression"
+  ]
+}
+

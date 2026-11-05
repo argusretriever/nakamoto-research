@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://nakamatoresearch.com/finance-library/sitemap.xml
+

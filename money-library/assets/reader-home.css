@@ -1,0 +1,48 @@
+/* Keep the Money Library home focused on the first practical decision. */
+body.money-home-reader .hero {
+  display: block !important;
+  min-height: 0 !important;
+  padding-block: clamp(28px, 5vw, 64px) !important;
+}
+
+body.money-home-reader .hero h1 {
+  max-width: 13ch !important;
+  font-size: clamp(3rem, 5vw, 5.5rem) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.05em !important;
+  overflow-wrap: anywhere;
+}
+
+body.money-home-reader .hero .growth-console,
+body.money-home-reader .hero .money-orbit,
+body.money-home-reader .sticky-conversion {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  body.money-home-reader .site-header,
+  body.money-home-reader .hero .hero-signal,
+  body.money-home-reader .hero .trust-strip {
+    display: none !important;
+  }
+
+  body.money-home-reader .nakamoto-money-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  body.money-home-reader .hero {
+    padding: 28px 16px 36px !important;
+  }
+
+  body.money-home-reader .hero h1 {
+    max-width: 100% !important;
+    font-size: clamp(2.5rem, 11vw, 4rem) !important;
+  }
+
+  body.money-home-reader .hero .action-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

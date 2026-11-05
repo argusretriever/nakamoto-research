@@ -1,0 +1,249 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 522.9559 28.34646 Tm (Page 52) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 780.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (PSBT integration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 763.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 730.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 714.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 697.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 681.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 664.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 631.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 PSBT integration: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 597.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Descriptor backups) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 580.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 564.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 547.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 531.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 514.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 498.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 481.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 465.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 448.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 432.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Descriptor backups: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 424.3701 cm
+Q
+q
+1 0 0 1 48.51969 397.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (19. SegWit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 379.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (SegWit motivation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 362.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 346.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 329.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 313.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 296.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 280.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 263.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 247.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 230.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 214.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 SegWit motivation: Website article idea) Tj T* ET
+Q
+Q
+ 

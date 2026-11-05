@@ -1,0 +1,41 @@
+/* Homepage reading density; leave the libraries' layouts unchanged. */
+body.home-page .hero {
+  min-height: auto !important;
+  padding-block: clamp(40px, 6vw, 80px) !important;
+}
+body.home-page .hero h1 {
+  max-width: 19ch !important;
+  font-size: clamp(36px, 4.8vw, 66px) !important;
+  line-height: 1.08 !important;
+}
+body.home-page .hero-visual.bitcoin-mark {
+  min-height: 260px !important;
+}
+body.home-page main > .page-section {
+  padding-block: clamp(32px, 4vw, 56px) !important;
+}
+body.home-page .section-heading h2 {
+  max-width: 30ch !important;
+  font-size: clamp(28px, 3.2vw, 42px) !important;
+  line-height: 1.14 !important;
+}
+body.home-page .section-heading p {
+  max-width: 68ch;
+}
+body.home-page .page-grid.four {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+body.home-page h2[id] {
+  scroll-margin-top: 110px;
+}
+@media (max-width: 640px) {
+  body.home-page .page-grid.four {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  body.home-page .hero-visual.bitcoin-mark {
+    min-height: 180px !important;
+  }
+  body.home-page .hero-proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}

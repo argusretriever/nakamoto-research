@@ -1,0 +1,41 @@
+{
+  "name": "NAKAMOTO Bitcoin Research",
+  "short_name": "NAKAMOTO",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "description": "Bitcoin research, daily crypto news, tools, and source-first education.",
+  "categories": ["education", "finance", "news"],
+  "icons": [
+    {
+      "src": "/assets/bitcoin-logo-bw.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable monochrome"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Brief",
+      "short_name": "News",
+      "url": "/crypto-news-today.html",
+      "description": "Open the latest source-checked crypto news brief."
+    },
+    {
+      "name": "Start Learning",
+      "short_name": "Start",
+      "url": "/start.html",
+      "description": "Open the beginner Bitcoin learning path."
+    },
+    {
+      "name": "Search Nakamoto",
+      "short_name": "Search",
+      "url": "/search.html",
+      "description": "Search guides, news, tools, and sources."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+/* NAKAMOTO site-wide monochrome system. Loaded last on every rendered page. */
+:root,
+:root[data-theme="light"] {
+  --accent: #222222;
+  --accent-dark: #050505;
+  --link: #111111;
+  --green: #303030;
+  --green-2: #111111;
+  --lime: #dedede;
+  --blue: #444444;
+  --gold: #777777;
+  --brass: #777777;
+  --coral: #555555;
+  --emerald: #555555;
+  --emerald-strong: #111111;
+  --sky: #444444;
+  --violet: #666666;
+  --rose: #777777;
+  --success: #333333;
+  --warning: #666666;
+  --danger: #111111;
+  --info: #555555;
+  --tool-cyan: #333333;
+  --tool-violet: #555555;
+  --tool-rose: #777777;
+  --focus-ring: rgba(0, 0, 0, .32);
+  accent-color: #111111;
+}
+
+:root[data-theme="dark"] {
+  --accent: #d8d8d8;
+  --accent-dark: #ffffff;
+  --link: #eeeeee;
+  --green: #d0d0d0;
+  --green-2: #f4f4f4;
+  --lime: #e2e2e2;
+  --blue: #c8c8c8;
+  --gold: #b8b8b8;
+  --brass: #b8b8b8;
+  --coral: #a8a8a8;
+  --emerald: #d8d8d8;
+  --emerald-strong: #ffffff;
+  --sky: #c8c8c8;
+  --violet: #b8b8b8;
+  --rose: #a8a8a8;
+  --success: #d8d8d8;
+  --warning: #b8b8b8;
+  --danger: #ffffff;
+  --info: #c8c8c8;
+  --focus-ring: rgba(255, 255, 255, .38);
+  accent-color: #eeeeee;
+}
+
+html {
+  filter: grayscale(1);
+}
+
+img,
+picture,
+video,
+canvas,
+svg,
+iframe {
+  filter: grayscale(1);
+}
+
+a,
+button,
+input,
+select,
+textarea,
+progress,
+meter {
+  accent-color: currentColor;
+}
+
+::selection {
+  color: #ffffff;
+  background: #202020;
+}
+
+:focus-visible {
+  outline-color: currentColor !important;
+}
+
+body.home-page .hero-proof-grid b {
+  font-size: clamp(1.25rem, 2vw, 1.75rem) !important;
+  line-height: 1.05 !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  hyphens: none !important;
+}
+
+/* Content-width responsive grids: collapse from the space they receive, not only
+   from the browser viewport. This prevents cards inside split layouts clipping. */
+body.home-page .hero-proof-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  overflow: visible !important;
+}
+
+body.home-page .hero-proof-grid span {
+  min-width: 0 !important;
+  overflow: visible !important;
+}
+
+:where(.page-grid, .resource-grid, .news-grid, .article-grid, .card-grid,
+  .feature-grid, .tool-grid, .grid-4, .grid-3, .metric-grid, .stats-grid,
+  .score-grid, .review-grid, .compare-grid) {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)) !important;
+}
+
+:where(.page-grid, .resource-grid, .news-grid, .article-grid, .card-grid,
+  .feature-grid, .tool-grid, .grid-4, .grid-3, .metric-grid, .stats-grid,
+  .score-grid, .review-grid, .compare-grid) > * {
+  min-width: 0 !important;
+  max-width: 100%;
+}
+
+:where(.action-card, .card, .resource-card, .tool-card, .feature-card,
+  .metric, .dashboard, .paper, .hero-proof-grid span) :where(h2, h3, h4, b, p, small) {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+@media (max-width: 560px) {
+  body.home-page .hero-proof-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+@media print {
+  html { filter: none; }
+  * { color-adjust: economy; print-color-adjust: economy; }
+}

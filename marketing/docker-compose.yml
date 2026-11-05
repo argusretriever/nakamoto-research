@@ -1,0 +1,631 @@
+name: nakamoto-marketing
+
+services:
+  matomo-db:
+    image: mariadb:11
+    container_name: nakamoto-matomo-db
+    restart: unless-stopped
+    command: --max-allowed-packet=64MB
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MATOMO_MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: matomo
+      MYSQL_USER: matomo
+      MYSQL_PASSWORD: ${MATOMO_MYSQL_PASSWORD}
+    volumes:
+      - matomo-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+
+  matomo:
+    image: matomo:5-apache
+    container_name: nakamoto-matomo
+    restart: unless-stopped
+    depends_on:
+      matomo-db:
+        condition: service_healthy
+    environment:
+      MATOMO_DATABASE_HOST: matomo-db
+      MATOMO_DATABASE_ADAPTER: mysql
+      MATOMO_DATABASE_TABLES_PREFIX: matomo_
+      MATOMO_DATABASE_USERNAME: matomo
+      MATOMO_DATABASE_PASSWORD: ${MATOMO_MYSQL_PASSWORD}
+      MATOMO_DATABASE_DBNAME: matomo
+    ports:
+      - "8081:80"
+    volumes:
+      - matomo:/var/www/html
+
+  listmonk-db:
+    image: postgres:16-alpine
+    container_name: nakamoto-listmonk-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: listmonk
+      POSTGRES_PASSWORD: ${LISTMONK_DB_PASSWORD}
+      POSTGRES_DB: listmonk
+    volumes:
+      - listmonk-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U listmonk -d listmonk"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  listmonk:
+    image: listmonk/listmonk:latest
+    container_name: nakamoto-listmonk
+    restart: unless-stopped
+    depends_on:
+      listmonk-db:
+        condition: service_healthy
+    command:
+      - sh
+      - -c
+      - ./listmonk --install --idempotent --yes --config "" && ./listmonk --upgrade --yes --config "" && ./listmonk --config ""
+    environment:
+      LISTMONK_app__address: 0.0.0.0:9000
+      LISTMONK_db__host: listmonk-db
+      LISTMONK_db__port: 5432
+      LISTMONK_db__user: listmonk
+      LISTMONK_db__password: ${LISTMONK_DB_PASSWORD}
+      LISTMONK_db__database: listmonk
+      LISTMONK_db__ssl_mode: disable
+      LISTMONK_db__max_open: 25
+      LISTMONK_db__max_idle: 25
+      LISTMONK_db__max_lifetime: 300s
+      LISTMONK_ADMIN_USER: ${LISTMONK_ADMIN_USER}
+      LISTMONK_ADMIN_PASSWORD: ${LISTMONK_ADMIN_PASSWORD}
+      TZ: Europe/London
+    ports:
+      - "9000:9000"
+    volumes:
+      - listmonk-uploads:/listmonk/uploads
+
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: nakamoto-n8n
+    restart: unless-stopped
+    environment:
+      N8N_HOST: localhost
+      N8N_PORT: 5678
+      N8N_PROTOCOL: http
+      N8N_BASIC_AUTH_ACTIVE: "true"
+      N8N_BASIC_AUTH_USER: ${N8N_USER}
+      N8N_BASIC_AUTH_PASSWORD: ${N8N_PASSWORD}
+      GENERIC_TIMEZONE: Europe/London
+      TZ: Europe/London
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n:/home/node/.n8n
+
+  uptime-kuma:
+    image: louislam/uptime-kuma:1
+    container_name: nakamoto-uptime-kuma
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    volumes:
+      - uptime-kuma:/app/data
+
+  umami-db:
+    image: postgres:16-alpine
+    container_name: nakamoto-umami-db
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: umami
+      POSTGRES_PASSWORD: ${UMAMI_DB_PASSWORD}
+      POSTGRES_DB: umami
+    volumes:
+      - umami-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U umami -d umami"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  umami:
+    image: docker.umami.is/umami-software/umami:latest
+    container_name: nakamoto-umami
+    profiles: ["extended"]
+    restart: unless-stopped
+    depends_on:
+      umami-db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://umami:${UMAMI_DB_PASSWORD}@umami-db:5432/umami
+      DATABASE_TYPE: postgresql
+      APP_SECRET: ${UMAMI_APP_SECRET}
+    ports:
+      - "3002:3000"
+
+  goaccess:
+    image: allinurl/goaccess:latest
+    container_name: nakamoto-goaccess
+    profiles: ["extended"]
+    restart: unless-stopped
+    command: ["goaccess", "/logs/access.log", "--log-format=COMBINED", "--real-time-html", "--output=/report/index.html", "--addr=0.0.0.0", "--port=7890"]
+    ports:
+      - "7890:7890"
+    volumes:
+      - ./data/goaccess/logs:/logs
+      - ./data/goaccess/report:/report
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: nakamoto-metabase
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      MB_DB_FILE: /metabase-data/metabase.db
+    ports:
+      - "3003:3000"
+    volumes:
+      - metabase:/metabase-data
+
+  baserow:
+    image: baserow/baserow:latest
+    container_name: nakamoto-baserow
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      BASEROW_PUBLIC_URL: http://localhost:3004
+    ports:
+      - "3004:80"
+    volumes:
+      - baserow:/baserow/data
+
+  directus:
+    image: directus/directus:latest
+    container_name: nakamoto-directus
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      KEY: ${DIRECTUS_KEY}
+      SECRET: ${DIRECTUS_SECRET}
+      ADMIN_EMAIL: ${DIRECTUS_ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${DIRECTUS_ADMIN_PASSWORD}
+      DB_CLIENT: sqlite3
+      DB_FILENAME: /directus/database/data.db
+      WEBSOCKETS_ENABLED: "true"
+    ports:
+      - "8055:8055"
+    volumes:
+      - directus-uploads:/directus/uploads
+      - directus-database:/directus/database
+
+  ghost:
+    image: ghost:5-alpine
+    container_name: nakamoto-ghost
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      url: http://localhost:2368
+      NODE_ENV: development
+    ports:
+      - "2368:2368"
+    volumes:
+      - ghost:/var/lib/ghost/content
+
+  keila-db:
+    image: postgres:16-alpine
+    container_name: nakamoto-keila-db
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: keila
+      POSTGRES_PASSWORD: ${KEILA_DB_PASSWORD}
+      POSTGRES_DB: keila
+    volumes:
+      - keila-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U keila -d keila"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  keila:
+    image: pentacent/keila:latest
+    container_name: nakamoto-keila
+    profiles: ["extended"]
+    restart: unless-stopped
+    depends_on:
+      keila-db:
+        condition: service_healthy
+    environment:
+      SECRET_KEY_BASE: ${KEILA_SECRET_KEY_BASE}
+      DB_URL: postgres://keila:${KEILA_DB_PASSWORD}@keila-db/keila
+      URL_HOST: localhost:4000
+      URL_SCHEMA: http
+    ports:
+      - "4000:4000"
+
+  limesurvey-db:
+    image: mariadb:11
+    container_name: nakamoto-limesurvey-db
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${LIMESURVEY_DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: limesurvey
+      MYSQL_USER: limesurvey
+      MYSQL_PASSWORD: ${LIMESURVEY_DB_PASSWORD}
+    volumes:
+      - limesurvey-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+
+  limesurvey:
+    image: adamzammit/limesurvey:latest
+    container_name: nakamoto-limesurvey
+    profiles: ["extended"]
+    restart: unless-stopped
+    depends_on:
+      limesurvey-db:
+        condition: service_healthy
+    environment:
+      LIMESURVEY_DB_HOST: limesurvey-db
+      LIMESURVEY_DB_NAME: limesurvey
+      LIMESURVEY_DB_USER: limesurvey
+      LIMESURVEY_DB_PASSWORD: ${LIMESURVEY_DB_PASSWORD}
+      LIMESURVEY_ADMIN_USER: admin
+      LIMESURVEY_ADMIN_PASSWORD: ${LIMESURVEY_ADMIN_PASSWORD}
+    ports:
+      - "8082:80"
+    volumes:
+      - limesurvey:/var/www/html/upload
+
+  docmost-db:
+    image: postgres:16-alpine
+    container_name: nakamoto-docmost-db
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: docmost
+      POSTGRES_PASSWORD: ${DOCMOST_DB_PASSWORD}
+      POSTGRES_DB: docmost
+    volumes:
+      - docmost-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U docmost -d docmost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  docmost-redis:
+    image: redis:7-alpine
+    container_name: nakamoto-docmost-redis
+    profiles: ["extended"]
+    restart: unless-stopped
+    volumes:
+      - docmost-redis:/data
+
+  docmost:
+    image: docmost/docmost:latest
+    container_name: nakamoto-docmost
+    profiles: ["extended"]
+    restart: unless-stopped
+    depends_on:
+      docmost-db:
+        condition: service_healthy
+      docmost-redis:
+        condition: service_started
+    environment:
+      APP_URL: http://localhost:3005
+      APP_SECRET: ${DOCMOST_APP_SECRET}
+      DATABASE_URL: postgresql://docmost:${DOCMOST_DB_PASSWORD}@docmost-db:5432/docmost?schema=public
+      REDIS_URL: redis://docmost-redis:6379
+    ports:
+      - "3005:3000"
+    volumes:
+      - docmost:/app/data/storage
+
+  bookstack-db:
+    image: mariadb:11
+    container_name: nakamoto-bookstack-db
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${BOOKSTACK_DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: bookstack
+      MYSQL_USER: bookstack
+      MYSQL_PASSWORD: ${BOOKSTACK_DB_PASSWORD}
+    volumes:
+      - bookstack-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+
+  bookstack:
+    image: lscr.io/linuxserver/bookstack:latest
+    container_name: nakamoto-bookstack
+    profiles: ["extended"]
+    restart: unless-stopped
+    depends_on:
+      bookstack-db:
+        condition: service_healthy
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/London
+      APP_URL: http://localhost:6875
+      DB_HOST: bookstack-db
+      DB_PORT: 3306
+      DB_USERNAME: bookstack
+      DB_PASSWORD: ${BOOKSTACK_DB_PASSWORD}
+      DB_DATABASE: bookstack
+    ports:
+      - "6875:80"
+    volumes:
+      - bookstack:/config
+
+  rallly-db:
+    image: postgres:16-alpine
+    container_name: nakamoto-rallly-db
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: rallly
+      POSTGRES_PASSWORD: ${RALLLY_DB_PASSWORD}
+      POSTGRES_DB: rallly
+    volumes:
+      - rallly-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rallly -d rallly"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  rallly:
+    image: lukevella/rallly:latest
+    container_name: nakamoto-rallly
+    profiles: ["extended"]
+    restart: unless-stopped
+    depends_on:
+      rallly-db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://rallly:${RALLLY_DB_PASSWORD}@rallly-db:5432/rallly
+      NEXT_PUBLIC_BASE_URL: http://localhost:3006
+      SECRET_PASSWORD: ${RALLLY_SECRET_PASSWORD}
+      SUPPORT_EMAIL: ${RALLLY_SUPPORT_EMAIL}
+    ports:
+      - "3006:3000"
+
+  gotosocial:
+    image: superseriousbusiness/gotosocial:latest
+    container_name: nakamoto-gotosocial
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      GTS_HOST: localhost
+      GTS_ACCOUNT_DOMAIN: localhost
+      GTS_PROTOCOL: http
+      GTS_BIND_ADDRESS: 0.0.0.0
+      GTS_PORT: 8080
+      GTS_DB_TYPE: sqlite
+      GTS_DB_ADDRESS: /gotosocial/storage/sqlite.db
+      GTS_STORAGE_BACKEND: local
+      GTS_STORAGE_LOCAL_BASE_PATH: /gotosocial/storage
+    ports:
+      - "8083:8080"
+    volumes:
+      - gotosocial:/gotosocial/storage
+
+  shlink:
+    image: shlinkio/shlink:latest
+    container_name: nakamoto-shlink
+    profiles: ["extended"]
+    restart: unless-stopped
+    environment:
+      DEFAULT_DOMAIN: localhost:8084
+      IS_HTTPS_ENABLED: "false"
+      GEOLITE_LICENSE_KEY: ""
+      INITIAL_API_KEY: ${SHLINK_INITIAL_API_KEY}
+    ports:
+      - "8084:8080"
+    volumes:
+      - shlink:/etc/shlink/data
+
+  shlink-web:
+    image: shlinkio/shlink-web-client:latest
+    container_name: nakamoto-shlink-web
+    profiles: ["extended"]
+    restart: unless-stopped
+    ports:
+      - "8085:8080"
+
+  apache-superset:
+    image: apache/superset:latest
+    container_name: nakamoto-apache-superset
+    profiles: ["apache"]
+    restart: unless-stopped
+    environment:
+      SUPERSET_SECRET_KEY: ${SUPERSET_SECRET_KEY}
+      ADMIN_USERNAME: admin
+      ADMIN_FIRST_NAME: Nakamoto
+      ADMIN_LAST_NAME: Research
+      ADMIN_EMAIL: ${SUPERSET_ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${SUPERSET_ADMIN_PASSWORD}
+    command:
+      - sh
+      - -c
+      - superset db upgrade && (superset fab create-admin --username "$$ADMIN_USERNAME" --firstname "$$ADMIN_FIRST_NAME" --lastname "$$ADMIN_LAST_NAME" --email "$$ADMIN_EMAIL" --password "$$ADMIN_PASSWORD" || true) && superset init && superset run -h 0.0.0.0 -p 8088
+    ports:
+      - "8088:8088"
+    volumes:
+      - apache-superset:/app/superset_home
+
+  apache-airflow:
+    image: apache/airflow:latest
+    container_name: nakamoto-apache-airflow
+    profiles: ["apache"]
+    restart: unless-stopped
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/airflow.db
+    command: standalone
+    ports:
+      - "8086:8080"
+    volumes:
+      - apache-airflow:/opt/airflow
+
+  apache-solr:
+    image: solr:latest
+    container_name: nakamoto-apache-solr
+    profiles: ["apache"]
+    restart: unless-stopped
+    command: ["solr-precreate", "nakamoto"]
+    ports:
+      - "8983:8983"
+    volumes:
+      - apache-solr:/var/solr
+
+  apache-answer:
+    image: apache/answer:latest
+    container_name: nakamoto-apache-answer
+    profiles: ["apache"]
+    restart: unless-stopped
+    ports:
+      - "9080:80"
+    volumes:
+      - apache-answer:/data
+
+  matomo-public-gateway:
+    image: node:22-alpine
+    container_name: nakamoto-matomo-public-gateway
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - matomo
+    environment:
+      PUBLIC_GATEWAY_USER: ${PUBLIC_GATEWAY_USER}
+      PUBLIC_GATEWAY_PASSWORD: ${PUBLIC_GATEWAY_PASSWORD}
+      TARGET_URL: http://matomo:80
+      TOOL_NAME: Matomo analytics
+    volumes:
+      - ./public-gateway:/app:ro
+    command: ["node", "/app/proxy.js"]
+
+  listmonk-public-gateway:
+    image: node:22-alpine
+    container_name: nakamoto-listmonk-public-gateway
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - listmonk
+    environment:
+      PUBLIC_GATEWAY_USER: ${PUBLIC_GATEWAY_USER}
+      PUBLIC_GATEWAY_PASSWORD: ${PUBLIC_GATEWAY_PASSWORD}
+      TARGET_URL: http://listmonk:9000
+      TOOL_NAME: listmonk newsletter
+    volumes:
+      - ./public-gateway:/app:ro
+    command: ["node", "/app/proxy.js"]
+
+  n8n-public-gateway:
+    image: node:22-alpine
+    container_name: nakamoto-n8n-public-gateway
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - n8n
+    environment:
+      PUBLIC_GATEWAY_USER: ${PUBLIC_GATEWAY_USER}
+      PUBLIC_GATEWAY_PASSWORD: ${PUBLIC_GATEWAY_PASSWORD}
+      TARGET_URL: http://n8n:5678
+      TOOL_NAME: n8n automation
+    volumes:
+      - ./public-gateway:/app:ro
+    command: ["node", "/app/proxy.js"]
+
+  uptime-public-gateway:
+    image: node:22-alpine
+    container_name: nakamoto-uptime-public-gateway
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - uptime-kuma
+    environment:
+      PUBLIC_GATEWAY_USER: ${PUBLIC_GATEWAY_USER}
+      PUBLIC_GATEWAY_PASSWORD: ${PUBLIC_GATEWAY_PASSWORD}
+      TARGET_URL: http://uptime-kuma:3001
+      TOOL_NAME: Uptime Kuma
+    volumes:
+      - ./public-gateway:/app:ro
+    command: ["node", "/app/proxy.js"]
+
+  matomo-public-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: nakamoto-matomo-public-tunnel
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - matomo-public-gateway
+    command: tunnel --no-autoupdate --url http://matomo-public-gateway:8080
+
+  listmonk-public-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: nakamoto-listmonk-public-tunnel
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - listmonk-public-gateway
+    command: tunnel --no-autoupdate --url http://listmonk-public-gateway:8080
+
+  n8n-public-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: nakamoto-n8n-public-tunnel
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - n8n-public-gateway
+    command: tunnel --no-autoupdate --url http://n8n-public-gateway:8080
+
+  uptime-public-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: nakamoto-uptime-public-tunnel
+    profiles: ["public"]
+    restart: unless-stopped
+    depends_on:
+      - uptime-public-gateway
+    command: tunnel --no-autoupdate --url http://uptime-public-gateway:8080
+
+volumes:
+  matomo-db:
+  matomo:
+  listmonk-db:
+  listmonk-uploads:
+  n8n:
+  uptime-kuma:
+  umami-db:
+  metabase:
+  baserow:
+  directus-uploads:
+  directus-database:
+  ghost:
+  keila-db:
+  limesurvey-db:
+  limesurvey:
+  docmost-db:
+  docmost-redis:
+  docmost:
+  bookstack-db:
+  bookstack:
+  rallly-db:
+  gotosocial:
+  shlink:
+  apache-superset:
+  apache-airflow:
+  apache-solr:
+  apache-answer:

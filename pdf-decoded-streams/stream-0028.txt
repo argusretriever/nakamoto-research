@@ -1,0 +1,157 @@
+﻿1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.501961 .501961 .501961 rg
+BT 1 0 0 1 42.51969 28.34646 Tm (Bitcoin Encyclopedia Taxonomy V4 - Master Blueprint) Tj T* ET
+BT 1 0 0 1 522.9559 28.34646 Tm (Page 28) Tj T* ET
+Q
+q
+1 0 0 1 48.51969 780.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Proof-of-work purpose) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 763.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 730.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 714.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 697.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 681.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Common mistakes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 664.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Comparison with alternatives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Real-world examples) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 631.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Research questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Proof-of-work purpose: Website article idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 597.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F3 10.5 Tf 13 TL (Hash puzzles) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 580.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Hash puzzles: Beginner explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 564.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Hash puzzles: Deep technical guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 547.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Hash puzzles: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 531.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Hash puzzles: Practical step-by-step tutorial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 514.8701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 2 Tm /F1 8.5 Tf 10.5 TL (\177 Hash puzzles: Risks and failure modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 49L (\177 Proof-of-work purpose: Research questions) Tj T* ET
+Q
+Q
+q      1 0 1 4uq Tj3 1 48.51969 615.370 Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 648.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 11nuzzles: Historical background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48stions) Tj T* ET
+Q
+Q
+q      1 0 1 4uq Tj3 Q
+q
+1 0 0 1 48.51T* ET
+BT 1 0 0 1 5295earch questions) Tj T* ET
+Q
+Q
+q      1 0 1 4uq Tj3 1.51969 631.8701 cm
+r* ET
+Q
+Q
+q
+1 0 0 1 48.L (3sbe ET
+a

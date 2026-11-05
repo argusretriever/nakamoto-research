@@ -1,0 +1,4 @@
+work/
+marketing/.env
+marketing/data/
+*.bat

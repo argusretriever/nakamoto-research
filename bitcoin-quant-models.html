@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msvalidate.01" content="2EC5E10A2F94F4D56BBD583A09729B3F">
+    <script>(function(){try{var t=localStorage.getItem("nakamoto-theme");if(!t){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.dataset.theme=t;document.documentElement.dataset.themeReady="true";}catch(e){}})();</script>
+    <meta name="description" content="Deep Bitcoin quant models and theories: return distributions, volatility, drawdowns, factor models, regime switching, Monte Carlo, power laws, liquidity, options, on-chain metrics, miner models, and risk systems.">
+    <title>Bitcoin Quant Models & Deep Market Theory | NAKAMOTO</title>
+    <link rel="canonical" href="https://nakamatoresearch.com/bitcoin-quant-models.html">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.clarity.ms">
+    <link rel="dns-prefetch" href="//www.bing.com">
+    <link rel="dns-prefetch" href="//bat.bing.net">
+    <link rel="alternate" type="application/rss+xml" title="NAKAMOTO Daily Crypto News" href="/feed.xml">
+    <meta property="og:site_name" content="NAKAMOTO">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bitcoin Quant Models &amp; Deep Market Theory | NAKAMOTO">
+    <meta property="og:description" content="Deep Bitcoin quant models and theories: return distributions, volatility, drawdowns, factor models, regime switching, Monte Carlo, power laws, liquidity, options, on-chain metrics, miner models, and risk systems.">
+    <meta property="og:url" content="https://nakamatoresearch.com/bitcoin-quant-models.html">
+    <meta property="og:image" content="https://nakamatoresearch.com/assets/nakamoto-hero.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bitcoin Quant Models &amp; Deep Market Theory | NAKAMOTO">
+    <meta name="twitter:description" content="Deep Bitcoin quant models and theories: return distributions, volatility, drawdowns, factor models, regime switching, Monte Carlo, power laws, liquidity, options, on-chain metrics, miner models, and risk systems.">
+    <meta name="twitter:image" content="https://nakamatoresearch.com/assets/nakamoto-hero.png">
+    <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Article","headline":"Bitcoin Quant Models & Deep Market Theory","description":"Deep Bitcoin quant models and theories: return distributions, volatility, drawdowns, factor models, regime switching, Monte Carlo, power laws, liquidity, options, on-chain metrics, miner models, and risk systems.","url":"https://nakamatoresearch.com/bitcoin-quant-models.html","mainEntityOfPage":"https://nakamatoresearch.com/bitcoin-quant-models.html","dateModified":"2026-06-15","author":{"@type":"Organization","name":"NAKAMOTO"},"publisher":{"@type":"Organization","name":"NAKAMOTO","logo":{"@type":"ImageObject","url":"https://nakamatoresearch.com/assets/bitcoin-logo-bw.svg"}},"image":"https://nakamatoresearch.com/assets/nakamoto-hero.png","datePublished":"2026-06-12"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nakamatoresearch.com/"},{"@type":"ListItem","position":2,"name":"Bitcoin Quant Models & Deep Market Theory","item":"https://nakamatoresearch.com/bitcoin-quant-models.html"}]}]</script>    <link rel="stylesheet" href="styles.css?v=20260626-studio1">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLL3RRGXCK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WLL3RRGXCK');
+    </script>
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "x97vtsxof3");
+    </script>
+    <!-- Microsoft Advertising UET -->
+    <script>
+      (function(w, d, t, u, o) {
+        w[u] = w[u] || [];
+        o = o || {};
+        o.ti = "97252882";
+        o.enableAutoSpaTracking = true;
+        o.ts = (new Date()).getTime();
+        var n = d.createElement(t);
+        n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" !== u ? "&q=" + u : "");
+        n.async = 1;
+        n.onload = n.onreadystatechange = function() {
+          var s = this.readyState;
+          if (!s || s === "loaded" || s === "complete") {
+            o.q = w[u];
+            w[u] = new UET(o);
+            w[u].push("pageLoad");
+            n.onload = n.onreadystatechange = null;
+          }
+        };
+        var i = d.getElementsByTagName(t)[0];
+        i.parentNode.insertBefore(n, i);
+      })(window, document, "script", "uetq");
+    </script>
+    <link rel="stylesheet" href="assets/share-tools.css">
+    <script defer src="assets/share-tools.js"></script>
+  <link rel="stylesheet" href="assets/monochrome.css" data-design-system="monochrome"></head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/bitcoin-logo-bw.svg" alt="Bitcoin logo" loading="lazy" decoding="async" width="512" height="512"></span><span>NAKAMOTO</span></a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="start.html">Start Here</a>
+        <a href="explore.html">Explore</a><a href="search.html">Search</a>
+        <a href="tools.html">Tools</a>
+        <a href="calendars.html">Calendars</a>
+        <a href="global-markets.html">Markets</a>
+        <a href="bitcoin-blog.html">Blog</a>
+        <a href="crypto-news-today.html">News</a>
+        <a href="resources.html">Sources</a>
+      </nav>
+      <a class="nav-action" href="bitcoin-financial-theories.html">Theory</a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Quant Research</p>
+        <h1>Bitcoin quant models and deep market theory.</h1>
+        <p>Advanced frameworks for studying Bitcoin returns, volatility, cycles, liquidity, options, on-chain behavior, miners, risk, and portfolio construction without pretending the model is the market.</p>
+      </section>
+
+      <section class="editorial-note">
+        <strong>Model discipline</strong>
+        <p>Quant models are tools for asking better questions. They can fail when market structure changes, liquidity disappears, regulation shocks the system, data quality is weak, or human behavior breaks historical patterns.</p>
+      </section>
+
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="section-kicker">Model Library</p>
+          <h2>Core quantitative fields for Bitcoin.</h2>
+          <p>Each model should be tested against Bitcoin's unique properties: fixed supply, 24/7 trading, global venues, derivatives leverage, on-chain transparency, custody risk, miner economics, and changing institutional access.</p>
+        </div>
+        <div class="resource-grid intelligence-grid">
+          <article id="return-distribution"><span>01</span><h3>Return Distribution Models</h3><p>Study daily, weekly, monthly, and cycle returns. Bitcoin returns are often fat-tailed, meaning extreme moves occur more often than a normal bell curve would imply.</p><a href="#distribution-details">Read details</a></article>
+          <article id="volatility-models"><span>02</span><h3>Volatility Models</h3><p>Use realized volatility, rolling volatility, EWMA, GARCH-style thinking, and volatility clustering to understand risk that changes over time.</p><a href="#volatility-details">Read details</a></article>
+          <article id="drawdown-models"><span>03</span><h3>Drawdown and Ruin Models</h3><p>Measure peak-to-trough losses, recovery time, maximum drawdown, underwater periods, and how much decline a holder can survive.</p><a href="#risk-details">Read details</a></article>
+          <article id="factor-models"><span>04</span><h3>Factor Models</h3><p>Compare Bitcoin exposure to equity beta, Nasdaq sensitivity, dollar strength, gold, real yields, liquidity, momentum, and volatility factors.</p><a href="#factor-details">Read details</a></article>
+          <article id="regime-models"><span>05</span><h3>Regime-Switching Models</h3><p>Separate market states such as accumulation, bull trend, leverage mania, distribution, crash, and recovery instead of assuming one stable behavior.</p><a href="#regime-details">Read details</a></article>
+          <article id="monte-carlo"><span>06</span><h3>Monte Carlo Simulation</h3><p>Generate many possible future paths using assumptions for return, volatility, drawdown, rebalancing, fees, and tax drag.</p><a href="#simulation-details">Read details</a></article>
+          <article id="power-law"><span>07</span><h3>Power Law and Log Regression</h3><p>Some Bitcoin models fit price against time on logarithmic scales. Useful for cycle framing, dangerous if treated as destiny.</p><a href="#valuation-details">Read details</a></article>
+          <article id="liquidity-models"><span>08</span><h3>Liquidity and Flow Models</h3><p>Model ETF flows, exchange balances, stablecoin liquidity, order-book depth, bid-ask spreads, futures funding, and macro liquidity.</p><a href="#liquidity-details">Read details</a></article>
+          <article id="options-theory"><span>09</span><h3>Options and Implied Volatility</h3><p>Use options markets to study expected volatility, skew, hedging demand, tail risk pricing, and dealer positioning.</p><a href="#options-details">Read details</a></article>
+          <article id="onchain-quant"><span>10</span><h3>On-Chain Quant Signals</h3><p>Use realized cap, MVRV, SOPR, HODL waves, dormancy, exchange flows, miner flows, and fee pressure as Bitcoin-native data.</p><a href="#onchain-details">Read details</a></article>
+          <article id="miner-models"><span>11</span><h3>Miner Economics Models</h3><p>Model hashprice, difficulty, energy cost, machine efficiency, curtailment, treasury policy, and forced selling risk.</p><a href="#miner-details">Read details</a></article>
+          <article id="portfolio-risk"><span>12</span><h3>Portfolio Risk Models</h3><p>Study allocation size, rebalancing, correlation instability, Sharpe ratio, Sortino ratio, VaR, CVaR, and liquidity needs.</p><a href="#portfolio-details">Read details</a></article>
+          <article id="network-models"><span>13</span><h3>Network Adoption Models</h3><p>Estimate value from users, wallets, nodes, developers, liquidity, institutional rails, merchant tools, and settlement demand.</p><a href="#network-details">Read details</a></article>
+          <article id="microstructure"><span>14</span><h3>Market Microstructure</h3><p>Study how 24/7 venues, fragmented liquidity, futures, ETFs, arbitrage, market makers, and exchange outages shape price.</p><a href="#microstructure-details">Read details</a></article>
+          <article id="model-risk"><span>15</span><h3>Model Risk and Backtest Discipline</h3><p>Protect readers from curve fitting, overfitting, survivorship bias, look-ahead bias, cherry-picked timeframes, and false precision.</p><a href="#model-risk-details">Read details</a></article>
+          <article id="scenario-engine"><span>16</span><h3>Scenario Engine</h3><p>Combine adoption, liquidity, regulation, miner security, lost supply, ETF demand, and macro inflation into transparent scenario ranges.</p><a href="#scenario-details">Read details</a></article>
+        </div>
+      </section>
+
+      <section id="distribution-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Return Distributions</p><h2>Bitcoin does not behave like a calm bell curve.</h2><p>Classical finance often begins with normally distributed returns. Bitcoin often violates that assumption: returns can be skewed, fat-tailed, clustered, and regime-dependent.</p></div>
+        <div class="company-table-wrap">
+          <table class="company-table">
+            <thead><tr><th>Concept</th><th>Meaning</th><th>Bitcoin Use</th><th>Model Risk</th></tr></thead>
+            <tbody>
+              <tr><td>Mean return</td><td>Average return over a period.</td><td>Useful for long-run assumptions.</td><td>Can be dominated by a few extreme cycles.</td></tr>
+              <tr><td>Median return</td><td>Middle observation.</td><td>Often more realistic than average for skewed data.</td><td>May understate upside tails.</td></tr>
+              <tr><td>Fat tails</td><td>Extreme moves happen more often than normal models imply.</td><td>Critical for risk sizing and leverage avoidance.</td><td>Hard to estimate from short history.</td></tr>
+              <tr><td>Skewness</td><td>Returns lean toward extreme upside or downside.</td><td>Bitcoin has historically shown asymmetric upside, but not smoothly.</td><td>Past skew may not persist.</td></tr>
+              <tr><td>Kurtosis</td><td>Tail heaviness.</td><td>Helps explain why ordinary VaR can fail.</td><td>Unstable across regimes.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="volatility-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Volatility</p><h2>Bitcoin risk changes through time.</h2></div>
+        <div class="scenario-grid">
+          <article><span>Realized volatility</span><h3>What actually happened.</h3><p>Calculated from historical returns. Useful for measuring current market turbulence, but backward-looking.</p></article>
+          <article><span>EWMA</span><h3>Recent data matters more.</h3><p>Exponentially weighted models react faster to new volatility but can still miss sudden shocks.</p></article>
+          <article><span>GARCH thinking</span><h3>Volatility clusters.</h3><p>Large moves often follow large moves. Calm periods can persist until a catalyst breaks them.</p></article>
+          <article><span>Volatility compression</span><h3>Quiet can be deceptive.</h3><p>Low volatility may signal mature liquidity or a coiled market before a large move.</p></article>
+        </div>
+      </section>
+
+      <section id="risk-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Drawdown Models</p><h2>The real question is what a holder can survive.</h2></div>
+        <div class="paper-checklist">
+          <article><span>Maximum drawdown</span><p>Largest peak-to-trough decline. Bitcoin history includes deep drawdowns, so sizing must assume emotional stress.</p></article>
+          <article><span>Time underwater</span><p>How long an investor waits to recover a prior high. This matters for confidence and liquidity planning.</p></article>
+          <article><span>Ruin risk</span><p>The chance that leverage, forced selling, or personal cash needs destroy the position before recovery.</p></article>
+          <article><span>Sequence risk</span><p>Bad early returns can damage a plan even if long-run returns are positive.</p></article>
+        </div>
+      </section>
+
+      <section id="factor-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Factor Models</p><h2>What is Bitcoin really exposed to?</h2></div>
+        <div class="company-table-wrap">
+          <table class="company-table">
+            <thead><tr><th>Factor</th><th>Question</th><th>Bitcoin Interpretation</th></tr></thead>
+            <tbody>
+              <tr><td>Equity beta</td><td>Does BTC move with stocks?</td><td>Correlation can rise during liquidity stress and fall during Bitcoin-specific catalysts.</td></tr>
+              <tr><td>Nasdaq sensitivity</td><td>Does BTC trade like high-growth tech?</td><td>Often during risk-on/risk-off periods, less so during custody or ETF-specific events.</td></tr>
+              <tr><td>Gold factor</td><td>Does BTC behave like monetary insurance?</td><td>Sometimes, especially when fiat credibility or banking stress is central.</td></tr>
+              <tr><td>Dollar factor</td><td>Does USD strength pressure BTC?</td><td>A stronger dollar can tighten global liquidity and pressure risk assets.</td></tr>
+              <tr><td>Momentum</td><td>Does trend persistence matter?</td><td>Bitcoin has strong momentum phases, but reversals can be violent.</td></tr>
+              <tr><td>Liquidity</td><td>Does money availability drive price?</td><td>Global liquidity, ETF flows, stablecoins, and leverage can all matter.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="regime-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Regime Switching</p><h2>One Bitcoin model rarely fits all market states.</h2></div>
+        <div class="scenario-grid">
+          <article><span>Accumulation</span><h3>Low attention, patient buyers.</h3><p>Volatility may compress, long-term holders build, and bad news has less effect over time.</p></article>
+          <article><span>Expansion</span><h3>Trend confirms.</h3><p>Momentum, ETF flows, media attention, and liquidity can reinforce each other.</p></article>
+          <article><span>Leverage mania</span><h3>Fragile upside.</h3><p>Funding rates, open interest, and options skew can signal crowded positioning.</p></article>
+          <article><span>Crash</span><h3>Forced selling dominates.</h3><p>Liquidations, exchange stress, miner selling, and macro shocks can overwhelm fundamentals.</p></article>
+          <article><span>Recovery</span><h3>Structure rebuilds.</h3><p>Volatility remains high, but long-term holders, builders, and infrastructure continue.</p></article>
+        </div>
+      </section>
+
+      <section id="simulation-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Simulation</p><h2>Monte Carlo shows ranges, not destiny.</h2></div>
+        <div class="resource-grid">
+          <article><span>Inputs</span><h3>Assumptions matter.</h3><p>Return, volatility, correlation, fees, taxes, rebalancing, drawdown limits, and time horizon all shape outputs.</p></article>
+          <article><span>Paths</span><h3>Many futures, not one forecast.</h3><p>Simulations show possible distributions of outcomes instead of one headline target.</p></article>
+          <article><span>Stress tests</span><h3>Include bad worlds.</h3><p>Model deep drawdowns, long flat periods, liquidity shocks, exchange failures, and policy restrictions.</p></article>
+          <article><span>Output</span><h3>Use percentiles.</h3><p>Median, 10th percentile, 90th percentile, worst path, and recovery time are more useful than one average.</p></article>
+        </div>
+      </section>
+
+      <section id="valuation-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Power Laws and Valuation</p><h2>Long-run curves need humility.</h2><p>Power law, logarithmic regression, and adoption curves can make Bitcoin look orderly over long periods. The danger is treating a fitted line as a law of nature.</p></div>
+        <div class="paper-checklist">
+          <article><span>Power law</span><p>Fits Bitcoin price to time on log scales. Useful for framing maturity, risky as a forecast.</p></article>
+          <article><span>Log regression</span><p>Smooths massive price ranges into channels. Helpful visually, vulnerable to curve fitting.</p></article>
+          <article><span>Adoption S-curve</span><p>Assumes adoption starts slow, accelerates, then matures. Useful if Bitcoin behaves like a network technology.</p></article>
+          <article><span>Monetary TAM</span><p>Compares Bitcoin to gold, cash, bonds, real estate, offshore wealth, or reserves. Useful but highly assumption-driven.</p></article>
+        </div>
+      </section>
+
+      <section id="liquidity-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Liquidity and Flows</p><h2>Price often follows marginal buyers and sellers.</h2></div>
+        <div class="company-table-wrap">
+          <table class="company-table">
+            <thead><tr><th>Flow</th><th>Why It Matters</th><th>What To Watch</th></tr></thead>
+            <tbody>
+              <tr><td>ETF flows</td><td>Brokerage demand can absorb or release large BTC exposure.</td><td>Daily inflows, outflows, issuer concentration.</td></tr>
+              <tr><td>Exchange balances</td><td>Coins moving to exchanges may signal sell pressure; withdrawals may signal custody demand.</td><td>Net flows and exchange-specific context.</td></tr>
+              <tr><td>Stablecoin liquidity</td><td>Stablecoins can act as crypto market cash.</td><td>Supply growth, exchange deposits, redemption stress.</td></tr>
+              <tr><td>Order-book depth</td><td>Thin books move more on the same order size.</td><td>Bid depth, ask depth, spreads, slippage.</td></tr>
+              <tr><td>Futures funding</td><td>Shows leverage imbalance.</td><td>Persistently high funding can signal crowded longs.</td></tr>
+              <tr><td>Macro liquidity</td><td>Global money conditions affect risk appetite.</td><td>Rates, dollar strength, central bank liquidity, credit stress.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="options-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Options Theory</p><h2>Options price uncertainty.</h2></div>
+        <div class="scenario-grid">
+          <article><span>Implied volatility</span><h3>Expected movement.</h3><p>Options markets imply how much volatility traders are willing to pay for.</p></article>
+          <article><span>Skew</span><h3>Upside versus downside demand.</h3><p>Put skew may show crash protection demand; call skew may show upside chase.</p></article>
+          <article><span>Gamma</span><h3>Dealer hedging pressure.</h3><p>Options positioning can amplify or dampen price moves near large strike concentrations.</p></article>
+          <article><span>Term structure</span><h3>Short-term versus long-term fear.</h3><p>Near-term volatility spikes around catalysts; long-dated vol reflects broader uncertainty.</p></article>
+        </div>
+      </section>
+
+      <section id="onchain-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">On-Chain Quant</p><h2>Bitcoin has native public data.</h2></div>
+        <div class="company-table-wrap">
+          <table class="company-table">
+            <thead><tr><th>Metric</th><th>Meaning</th><th>Use</th><th>Weakness</th></tr></thead>
+            <tbody>
+              <tr><td>MVRV</td><td>Market value versus realized value.</td><td>Cycle heat and valuation stress.</td><td>Can stay high or low for long periods.</td></tr>
+              <tr><td>SOPR</td><td>Spent output profit ratio.</td><td>Shows whether spent coins move at profit or loss.</td><td>Exchange movement can distort meaning.</td></tr>
+              <tr><td>HODL waves</td><td>Age distribution of coins.</td><td>Tracks long-term holder behavior.</td><td>Lost coins are hard to classify.</td></tr>
+              <tr><td>Dormancy</td><td>Old coin movement.</td><td>Old coins moving can signal distribution or custody reshuffling.</td><td>Intent is not visible on-chain.</td></tr>
+              <tr><td>Fee pressure</td><td>Demand for blockspace.</td><td>Important for long-term miner security.</td><td>Short-term spikes may be temporary.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="miner-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Miner Models</p><h2>Mining links Bitcoin price to energy and hardware.</h2></div>
+        <div class="paper-checklist">
+          <article><span>Hashprice</span><p>Revenue per unit of hash rate. It depends on BTC price, fees, subsidy, and difficulty.</p></article>
+          <article><span>Difficulty</span><p>Adjusts roughly every two weeks to keep blocks near ten minutes. Rising difficulty can squeeze inefficient miners.</p></article>
+          <article><span>Energy cost</span><p>Power price is often the largest operating variable. Curtailment and demand response can change economics.</p></article>
+          <article><span>Machine efficiency</span><p>Newer ASICs produce more hash per watt, changing the cost curve.</p></article>
+          <article><span>Treasury policy</span><p>Miners that hold BTC have upside exposure but may need to sell during stress.</p></article>
+          <article><span>Fee era</span><p>As subsidy declines, transaction fees become more important to miner revenue and security budget.</p></article>
+        </div>
+      </section>
+
+      <section id="portfolio-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Portfolio Risk</p><h2>A Bitcoin allocation is a sizing problem.</h2></div>
+        <div class="resource-grid">
+          <article><span>Sharpe ratio</span><h3>Return per unit volatility.</h3><p>Can look attractive historically, but volatility is not the only risk.</p></article>
+          <article><span>Sortino ratio</span><h3>Downside-focused risk.</h3><p>More useful when upside volatility is not considered harmful.</p></article>
+          <article><span>VaR / CVaR</span><h3>Tail loss estimates.</h3><p>Useful for stress framing, but dangerous if tails are underestimated.</p></article>
+          <article><span>Rebalancing</span><h3>Discipline versus taxes.</h3><p>Rebalancing can control risk but may create taxable events and emotional friction.</p></article>
+        </div>
+      </section>
+
+      <section id="network-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Network Models</p><h2>Value can come from credible adoption.</h2></div>
+        <div class="scenario-grid">
+          <article><span>Users</span><h3>More holders can deepen liquidity.</h3><p>But address count is imperfect because one user can control many addresses.</p></article>
+          <article><span>Nodes</span><h3>Verification matters.</h3><p>Node count and geographic distribution can signal resilience, but node quality also matters.</p></article>
+          <article><span>Developers</span><h3>Maintenance is invisible until needed.</h3><p>Bitcoin depends on careful protocol stewardship and review culture.</p></article>
+          <article><span>Institutions</span><h3>Rails change access.</h3><p>ETFs, custody, banking access, and accounting standards can expand reachable demand.</p></article>
+        </div>
+      </section>
+
+      <section id="microstructure-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Market Microstructure</p><h2>Where price forms matters.</h2></div>
+        <div class="paper-checklist">
+          <article><span>24/7 trading</span><p>Bitcoin trades when traditional markets are closed, which can create weekend gaps in liquidity and attention.</p></article>
+          <article><span>Venue fragmentation</span><p>Spot price forms across many exchanges, ETFs, OTC desks, and derivatives venues.</p></article>
+          <article><span>Arbitrage</span><p>Price differences close when capital, settlement, and exchange access work smoothly.</p></article>
+          <article><span>ETF bridge</span><p>ETFs connect brokerage capital to BTC exposure but trade on traditional market hours.</p></article>
+          <article><span>Liquidations</span><p>Leveraged positions can create cascade moves unrelated to long-term value.</p></article>
+          <article><span>Outages</span><p>Exchange downtime or withdrawal limits can distort price and user behavior.</p></article>
+        </div>
+      </section>
+
+      <section id="model-risk-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Model Risk</p><h2>The model can become the trap.</h2></div>
+        <div class="company-table-wrap">
+          <table class="company-table">
+            <thead><tr><th>Failure</th><th>Meaning</th><th>Protection</th></tr></thead>
+            <tbody>
+              <tr><td>Overfitting</td><td>The model fits history too perfectly and fails live.</td><td>Use out-of-sample testing and simple assumptions.</td></tr>
+              <tr><td>Look-ahead bias</td><td>The model uses information that was not available at the time.</td><td>Time-stamp data and test honestly.</td></tr>
+              <tr><td>Survivorship bias</td><td>Failed assets, exchanges, or strategies disappear from the sample.</td><td>Include failures and delistings when relevant.</td></tr>
+              <tr><td>Cherry-picking</td><td>Choosing start and end dates that flatter the result.</td><td>Test multiple windows and cycle phases.</td></tr>
+              <tr><td>False precision</td><td>Detailed numbers create fake confidence.</td><td>Use ranges, confidence bands, and scenario language.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="scenario-details" class="page-section">
+        <div class="section-heading"><p class="section-kicker">Scenario Engine</p><h2>Combine models into a decision framework.</h2><p>A serious Bitcoin scenario engine should not output one magic price. It should show assumptions, ranges, stress cases, and what would make the model wrong.</p></div>
+        <div class="paper-checklist">
+          <article><span>Adoption path</span><p>Retail, ETF, corporate, sovereign, and payment adoption should be separate assumptions.</p></article>
+          <article><span>Liquidity path</span><p>Include interest rates, dollar strength, stablecoins, ETF flows, and leverage.</p></article>
+          <article><span>Supply path</span><p>Include issuance, lost coins, exchange balances, long-term holder supply, and miner selling.</p></article>
+          <article><span>Policy path</span><p>Include tax rules, custody rules, mining policy, exchange access, and capital controls.</p></article>
+          <article><span>Security path</span><p>Include fee market, miner incentives, node participation, custody failures, and protocol risk.</p></article>
+          <article><span>Failure trigger</span><p>Every model should state what evidence would make the thesis weaker.</p></article>
+        </div>
+      </section>
+
+      <section class="editorial-note education-risk-note"><strong>Education and risk note</strong><p>NAKAMOTO content is educational only and is not financial, investment, tax, legal, trading, wallet-security, or accounting advice. Bitcoin, crypto, trading, investing, and personal finance decisions involve risk. Verify primary sources and consider qualified professional advice before acting.</p><a href="disclaimer.html">Read the full disclaimer</a></section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>NAKAMOTO</strong><p>Quant models for Bitcoin research.</p></div>
+      <nav><a href="index.html">Home</a><a href="bitcoin-financial-theories.html">Financial Theory</a><a href="data.html">Data</a><a href="tools.html">Tools</a></nav>
+    </footer>
+      <script src="script.js?v=20260622-design2"></script>
+  </body>
+</html>

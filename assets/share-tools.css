@@ -1,0 +1,41 @@
+.article-share-tools {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 1.25rem auto;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(127, 127, 127, .35);
+  background: var(--surface, var(--paper, #fff));
+  color: var(--text, var(--ink, #111));
+}
+
+.article-share-tools > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: .75rem;
+}
+
+.article-share-tools button,
+.article-share-tools a {
+  min-height: 42px;
+  padding: .65rem .9rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.article-share-tools [data-share-status] {
+  display: block;
+  margin-top: .6rem;
+  overflow-wrap: anywhere;
+  font-size: .9rem;
+}
+
+@media (max-width: 520px) {
+  .article-share-tools button,
+  .article-share-tools a { flex: 1 1 calc(50% - .6rem); text-align: center; }
+}

@@ -1,3 +1,7 @@
+## Publication update — 7 November 2026
+
+Published the decision review, basis-point exercise and original-source pack. Preserved original dates; disclosed the 6 November gap. Updated discovery and current entry routes. See the dated inspection report for verification and deployment status.
+
 ## 2026-11-03 publication package
 
 Prepared four source reviews and four research exercises for 31 October–3 November, an original-source pack, evidence worksheet and publication-coverage record. All were written on 3 November; earlier slots are retrospective. Updated front pages, priority hubs, discovery, archives, search, RSS and sitemap. Local checks passed. The local package is being synced to GitLab for publication; verify the deployed pages after the deploy completes. See WEBSITE_MAINTENANCE_SCHEDULE.md for recurring maintenance.

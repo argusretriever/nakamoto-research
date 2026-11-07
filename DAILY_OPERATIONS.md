@@ -1,3 +1,7 @@
+## Publication update — 7 November 2026
+
+Published the decision review, basis-point exercise and original-source pack. Preserved original dates; disclosed the 6 November gap. Updated discovery and current entry routes. See the dated inspection report for verification and deployment status.
+
 # NAKAMOTO Daily Operations: Trading Academy, Investing, Personal Finance, and Bitcoin
 
 ## Current local handoff — 3 November 2026

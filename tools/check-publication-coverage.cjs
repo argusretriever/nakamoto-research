@@ -4,13 +4,26 @@ const read = n => fs.readFileSync(path.join(root, n), 'utf8');
 const archive = read('bitcoin-blog-archive.html'), news = read('news-archive.html');
 const sitemap = read('sitemap.xml'), feed = read('feed.xml'), search = read('script.js');
 let count = 0;
-for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-05T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
+for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-07T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
+  if (date.toISOString().slice(0, 10) === '2026-11-06') {
+    assert(read('publication-coverage.html').includes('No 6 November edition was published'), 'unpublished date must be disclosed');
+    continue;
+  }
   const file = `bitcoin-blog-${date.toISOString().slice(0, 10)}.html`;
   assert(fs.existsSync(path.join(root, file)), `${file}: missing study`);
   assert(archive.includes(`href="${file}"`), `${file}: absent from archive`);
   count++;
 }
 assert(archive.includes(`${count} archive studies`), 'visible archive count is stale');
+for (const prefix of ['news', 'bitcoin-blog', 'today-source-pack']) {
+  const file = `${prefix}-2026-11-07.html`, html = read(file);
+  assert(html.includes('Published <time datetime="2026-11-07">7 November 2026</time>'), `${file}: publication date absent`);
+  for (const content of [sitemap, search]) assert(content.includes(file), `${file}: missing discovery`);
+  for (const [, json] of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    assert.equal(JSON.parse(json).datePublished, '2026-11-07');
+  }
+}
+assert(read('news-2026-11-05.html').includes('Later update'), 'pre-release guide needs a result link');
 const titles = new Set();
 for (const date of ['2026-10-31', '2026-11-01', '2026-11-02', '2026-11-03']) {
   for (const prefix of ['news', 'bitcoin-blog']) {

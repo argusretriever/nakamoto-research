@@ -168,13 +168,17 @@
           });
           summary.textContent = q ? shown + ' Nakamoto routes match "' + q + '".' : 'Showing the main Nakamoto routes.';
         }
+        function routeKey(href){
+          return new URL(href, location.origin).pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '').replace(/\/$/, '') || '/';
+        }
         function loadCuratedRoutes(){
           if (!resultGrid || typeof searchDestinations === 'undefined') return;
-          var known = new Set(results.map(function(card){ return (card.getAttribute('href') || '').replace(/^\//, ''); }));
+          var known = new Set(results.map(function(card){ return routeKey(card.href); }));
           searchDestinations.forEach(function(item){
-            if (known.has(item.href)) return;
+            var key = routeKey(item.href);
+            if (known.has(key)) return;
             resultGrid.insertAdjacentHTML('beforeend', '<a class="action-card" href="' + escapeHTML(item.href) + '" data-sitemap-route="true" data-tags="' + escapeHTML(item.terms || '') + '"><span>' + escapeHTML(item.label) + '</span><h3>' + escapeHTML(item.title) + '</h3><p>' + escapeHTML(item.summary) + '</p><em>Open page</em></a>');
-            known.add(item.href);
+            known.add(key);
           });
           results = Array.prototype.slice.call(resultGrid.querySelectorAll('.action-card'));
         }
@@ -184,14 +188,14 @@
             var response = await fetch('sitemap.xml', { cache: 'no-store' });
             if(!response.ok){ return; }
             var xml = new DOMParser().parseFromString(await response.text(), 'application/xml');
-            var known = new Set(results.map(function(card){ return (card.getAttribute('href') || '').replace(/^\//, ''); }));
+            var known = new Set(results.map(function(card){ return routeKey(card.href); }));
             Array.prototype.slice.call(xml.querySelectorAll('url loc')).forEach(function(node){
               var path = '';
               try { path = new URL(node.textContent.trim()).pathname.replace(/^\//, '') || 'index.html'; } catch(error) {}
-              if(!path || !path.endsWith('.html') || path.indexOf('404') !== -1 || known.has(path)){ return; }
+              if(!path || !path.endsWith('.html') || path.indexOf('404') !== -1 || known.has(routeKey(path))){ return; }
               var title = titleFromPath(path);
               resultGrid.insertAdjacentHTML('beforeend', '<a class="action-card" href="' + escapeHTML(path) + '" data-sitemap-route="true" data-tags="' + escapeHTML((title + ' ' + path.replace(/[-/.]/g, ' ')).toLowerCase()) + '"><span>Archive</span><h3>' + escapeHTML(title) + '.</h3><p>Open this Nakamoto Research archive page from the full sitemap index.</p><em>Open page</em></a>');
-              known.add(path);
+              known.add(routeKey(path));
             });
             results = Array.prototype.slice.call(document.querySelectorAll('[data-directory-results] .action-card'));
             run(input ? input.value : '');

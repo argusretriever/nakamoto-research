@@ -4,17 +4,27 @@ const read = n => fs.readFileSync(path.join(root, n), 'utf8');
 const archive = read('bitcoin-blog-archive.html'), news = read('news-archive.html');
 const sitemap = read('sitemap.xml'), feed = read('feed.xml'), search = read('script.js');
 let count = 0;
-for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-07T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
-  if (date.toISOString().slice(0, 10) === '2026-11-06') {
-    assert(read('publication-coverage.html').includes('No 6 November edition was published'), 'unpublished date must be disclosed');
-    continue;
-  }
+for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-12T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
   const file = `bitcoin-blog-${date.toISOString().slice(0, 10)}.html`;
   assert(fs.existsSync(path.join(root, file)), `${file}: missing study`);
   assert(archive.includes(`href="${file}"`), `${file}: absent from archive`);
   count++;
 }
 assert(archive.includes(`${count} archive studies`), 'visible archive count is stale');
+for (const day of ['06', '08', '09', '10', '11', '12']) {
+  const slot = `2026-11-${day}`;
+  for (const [prefix, index] of [['news', news], ['bitcoin-blog', archive]]) {
+    const file = `${prefix}-${slot}.html`;
+    const html = read(file);
+    assert(html.includes('Published <time datetime="2026-11-12">12 November 2026</time>'), `${file}: incorrect publication date`);
+    if (day !== '12') assert(html.includes(`Retrospective archive slot <time datetime="${slot}">`));
+    for (const content of [index, sitemap, feed, search]) assert(content.includes(file), `${file}: missing discovery link`);
+    const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+    assert.equal(schema.datePublished, '2026-11-12');
+    assert.equal(schema.mainEntityOfPage, `https://nakamatoresearch.com/${file}`);
+    assert(schema.citation.length);
+  }
+}
 for (const prefix of ['news', 'bitcoin-blog', 'today-source-pack']) {
   const file = `${prefix}-2026-11-07.html`, html = read(file);
   assert(html.includes('Published <time datetime="2026-11-07">7 November 2026</time>'), `${file}: publication date absent`);

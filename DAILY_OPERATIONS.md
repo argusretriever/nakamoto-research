@@ -1,3 +1,7 @@
+## Publication update — 12 November 2026
+
+Published the GDP edition and five retrospective News and Blog pairs. Refreshed current section routes, discovery, archives and source links. Actual publication dates are 12 November.
+
 ## Publication update — 7 November 2026
 
 Published the decision review, basis-point exercise and original-source pack. Preserved original dates; disclosed the 6 November gap. Updated discovery and current entry routes. See the dated inspection report for verification and deployment status.

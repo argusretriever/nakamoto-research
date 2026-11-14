@@ -4,7 +4,7 @@ const read = n => fs.readFileSync(path.join(root, n), 'utf8');
 const archive = read('bitcoin-blog-archive.html'), news = read('news-archive.html');
 const sitemap = read('sitemap.xml'), feed = read('feed.xml'), search = read('script.js');
 let count = 0;
-for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-12T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
+for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-14T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
   const file = `bitcoin-blog-${date.toISOString().slice(0, 10)}.html`;
   assert(fs.existsSync(path.join(root, file)), `${file}: missing study`);
   assert(archive.includes(`href="${file}"`), `${file}: absent from archive`);

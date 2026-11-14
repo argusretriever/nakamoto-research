@@ -1,3 +1,7 @@
+## Publication update — 14 November 2026
+
+Published the short-term lets and business investment reviews, two exercises and the source pack. Updated current entry points and archive discovery.
+
 ## Publication update — 12 November 2026
 
 Published the GDP edition and five retrospective News and Blog pairs. Refreshed current section routes, discovery, archives and source links. Actual publication dates are 12 November.

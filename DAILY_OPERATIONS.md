@@ -1,3 +1,9 @@
+## Daily check — 15 November 2026
+
+- Checked the ONS and Bank of England publications. The 14 November edition remains current.
+- Linked the two reviews, two exercises and original-source pack to each other. Refreshed the current operations and Money Library task dates.
+- Follow-up items: 81 historical News slots and Netlify record capture and notification delivery for the previous form tests.
+
 ## Publication update — 14 November 2026
 
 Published the short-term lets and business investment reviews, two exercises and the source pack. Updated current entry points and archive discovery.

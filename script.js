@@ -178,6 +178,9 @@ function installGrowthEventTracking() {
 installGrowthEventTracking();
 
 const searchDestinations = [
+  {"href":"news-2026-10-05.html","title":"How to read the September UK reserves workbook","summary":"The Bank of England published its September reserves workbook on 5 October. The release covers foreign currencies, gold and reserve assets held through the IMF.","label":"Retrospective · published 15 November","terms":"october uk reserves ons business archive"},
+  {"href":"news-2026-10-08.html","title":"UK business survey tracks concern about climate impacts","summary":"In its 8 October bulletin the ONS reported that 41% of businesses expressed some degree of concern about the impact of climate change, nine percentage points above June 2026.","label":"Retrospective · published 15 November","terms":"october uk reserves ons business archive"},
+
   {"href":"news-2026-11-14.html","title":"UK short-term lets recorded 104.6 million guest nights","summary":"The ONS counted 104.6 million guest nights in UK short-term lets booked through three platforms in the year to June 2026, 10.2% more than the preceding year.","label":"Published 14 November","terms":"uk short-term lets recorded 104.6 million guest nights"},
   {"href":"bitcoin-blog-2026-11-14.html","title":"Separate guest nights, booked nights and stays","summary":"Use the ONS short-term lets bulletin to compare three measures of accommodation use.","label":"Published 14 November","terms":"separate guest nights, booked nights and stays"},
   {"href":"news-2026-11-13.html","title":"UK business investment rose 0.4% in the third quarter","summary":"The ONS provisional estimate puts UK business investment 0.4% above the preceding quarter and 3.0% above the same quarter in 2025.","label":"Published 14 November","terms":"uk business investment rose 0.4% in the third quarter"},

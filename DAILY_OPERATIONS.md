@@ -1,3 +1,7 @@
+## 16 November 2026 daily update
+
+Five article revisions and three retrospective publications. Checked the official release status, section and archive routes, and daily task dates. Open items include 78 older News slots and private dashboard verification for analytics and form delivery.
+
 ## Daily check — 15 November 2026
 
 - Checked the ONS and Bank of England publications. The 14 November edition remains current.

@@ -1,3 +1,7 @@
+## 16 November 2026 daily update
+
+Five article revisions and three retrospective publications. Checked the official release status, section and archive routes, and daily task dates. Open items include 78 older News slots and private dashboard verification for analytics and form delivery.
+
 ## Publication update — 14 November 2026
 
 Published the short-term lets and business investment reviews, two exercises and the source pack. Updated current entry points and archive discovery.

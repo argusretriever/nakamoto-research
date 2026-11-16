@@ -800,7 +800,7 @@
   </url>
   <url>
     <loc>https://nakamatoresearch.com/news.html</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.87</priority>
   </url>
@@ -1850,7 +1850,7 @@
   </url>
   <url>
     <loc>https://nakamatoresearch.com/source-tracker.html</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.84</priority>
   </url>
@@ -2108,7 +2108,7 @@
   </url>
   <url>
     <loc>https://nakamatoresearch.com/trading-academy/academy-library/news.html</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.62</priority>
   </url>
@@ -2564,7 +2564,7 @@
   </url>
   <url>
     <loc>https://nakamatoresearch.com/finance-library/news.html</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.66</priority>
   </url>
@@ -3176,7 +3176,7 @@
   </url>
   <url>
     <loc>https://nakamatoresearch.com/money-library/news.html</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.58</priority>
   </url>
@@ -4172,4 +4172,8 @@
 <url><loc>https://nakamatoresearch.com/news-2026-10-01.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://nakamatoresearch.com/news-2026-11-15.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://nakamatoresearch.com/bitcoin-blog-2026-11-15.html</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://nakamatoresearch.com/news-2026-08-05.html</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://nakamatoresearch.com/news-2026-09-03.html</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://nakamatoresearch.com/news-2026-09-24.html</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://nakamatoresearch.com/news-2026-10-06.html</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>

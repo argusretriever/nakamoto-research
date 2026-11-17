@@ -1,3 +1,8 @@
+## 17 November checklist follow-up
+
+- Improved a mini-course, UK money guide, debt payoff comparison, glossary entry and beginner guide. Updated the reader brief with the 17 November reporting.
+- The labour-market figures were scheduled for 07:00 London time at the source check. Private traffic reports and Netlify receipt verification still require account access.
+
 ## 17 November daily update
 
 Two retrospective publications and five article revisions. The ONS labour-market release was scheduled for 07:00 London time at this check. 74 older News slots and private dashboard verification remain open.

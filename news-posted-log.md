@@ -1,3 +1,7 @@
+## 17 November release and archive follow-up
+
+Updated the release calendar, market brief and official data hub. Published the 30 September GDP revision review on 17 November. The coverage register lists 73 older News gaps.
+
 ## 17 November daily update
 
 Two retrospective publications and five article revisions. The ONS labour-market release was scheduled for 07:00 London time at this check. 74 older News slots and private dashboard verification remain open.

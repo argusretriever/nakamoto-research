@@ -1,3 +1,7 @@
+## 17 November release and archive follow-up
+
+Updated the release calendar, market brief and official data hub. Published the 30 September GDP revision review on 17 November. The coverage register lists 73 older News gaps.
+
 ## 17 November checklist follow-up
 
 - Improved a mini-course, UK money guide, debt payoff comparison, glossary entry and beginner guide. Updated the reader brief with the 17 November reporting.

@@ -1,3 +1,7 @@
+## 17 November daily update
+
+Two retrospective publications and five article revisions. The ONS labour-market release was scheduled for 07:00 London time at this check. 74 older News slots and private dashboard verification remain open.
+
 ## 16 November 2026 daily update
 
 Five article revisions and three retrospective publications. Checked the official release status, section and archive routes, and daily task dates. Open items include 78 older News slots and private dashboard verification for analytics and form delivery.

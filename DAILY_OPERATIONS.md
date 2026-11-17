@@ -1,3 +1,7 @@
+## 17 November afternoon follow-up
+
+Published the ONS labour-market and productivity report. Updated the home, News and section reporting links, Reader Brief, Market Brief, release calendar, Official Data Hub, search, RSS and sitemap. October inflation is scheduled for 18 November.
+
 ## 17 November release and archive follow-up
 
 Updated the release calendar, market brief and official data hub. Published the 30 September GDP revision review on 17 November. The coverage register lists 73 older News gaps.

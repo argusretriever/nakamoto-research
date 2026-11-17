@@ -4,14 +4,12 @@ const read = n => fs.readFileSync(path.join(root, n), 'utf8');
 const archive = read('bitcoin-blog-archive.html'), news = read('news-archive.html');
 const sitemap = read('sitemap.xml'), feed = read('feed.xml'), search = read('script.js');
 const home = read('index.html');
-const edition = home.match(/Latest edition · <time datetime="(\d{4}-\d{2}-\d{2})"/)?.[1];
-assert(edition, 'Homepage latest edition date is missing');
-const editionRoutes = [`news-${edition}.html`, `bitcoin-blog-${edition}.html`, `today-source-pack-${edition}.html`];
-for (const file of ['index.html', 'crypto-news-today.html', 'bitcoin-blog.html', 'today-nakamoto-brief.html', 'source-packs.html']) {
-  const html = read(file);
-  for (const route of editionRoutes) {
-    assert(html.includes(route), `${file}: current edition link missing: ${route}`);
-  }
+const lead = home.match(/data-news-lead href="(news-\d{4}-\d{2}-\d{2}\.html)"/)?.[1];
+assert(lead, "Homepage needs a lead article");
+const leadDate = JSON.parse(read(lead).match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]).datePublished;
+assert.equal(home.match(/data-news-lead-date datetime="([^"]+)"/)?.[1], leadDate, 'Homepage date must match the lead article publication date');
+for (const file of ["crypto-news-today.html", "today-nakamoto-brief.html", "news-archive.html"]) {
+  assert(read(file).includes(lead), file + ": missing the homepage lead article");
 }
 let count = 0;
 for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-16T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {

@@ -12,7 +12,7 @@ for (const file of ["crypto-news-today.html", "today-nakamoto-brief.html", "news
   assert(read(file).includes(lead), file + ": missing the homepage lead article");
 }
 let count = 0;
-for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-16T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
+for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-18T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
   const file = `bitcoin-blog-${date.toISOString().slice(0, 10)}.html`;
   assert(fs.existsSync(path.join(root, file)), `${file}: missing study`);
   assert(archive.includes(`href="${file}"`), `${file}: absent from archive`);
@@ -62,4 +62,16 @@ for (const date of ['2026-10-31', '2026-11-01', '2026-11-02', '2026-11-03']) {
   }
 }
 assert(!/5 November[^<]*\b(decided|cut|raised|held)\b/i.test(read('news-2026-11-03.html')), 'upcoming event presented as an outcome');
-console.log(`Verified ${count} Blog slots and 8 new articles: unique headlines, actual dates, sources and discovery.`);
+for (const day of ['17', '18']) {
+  const file = 'bitcoin-blog-2026-11-' + day + '.html';
+  const html = read(file);
+  const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+  assert.equal(schema.datePublished, '2026-11-18');
+  assert.equal(schema.mainEntityOfPage, 'https://nakamatoresearch.com/' + file);
+  assert(schema.citation.length);
+  if (day === '17') assert(html.includes('Retrospective archive slot'));
+  for (const content of [archive, read('bitcoin-blog.html'), sitemap, feed, search]) {
+    assert(content.includes(file), file + ': missing discovery route');
+  }
+}
+console.log(`Verified ${count} Blog slots, actual publication dates, sources and discovery routes.`);

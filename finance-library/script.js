@@ -422,6 +422,7 @@ const updateRitual = () => {
   const total = ritualItems.length || 1;
   const percent = Math.round((completed / total) * 100);
   ritualProgress?.style.setProperty("--ritual-progress", `${percent}%`);
+  ritualProgress?.parentElement?.setAttribute("aria-valuenow", String(percent));
 
   if (ritualNote) {
     ritualNote.textContent =

@@ -1,5 +1,18 @@
 # Google + Microsoft Growth Operations Backlog - 1000 Items
 
+<!-- current-daily-status:start -->
+## Current daily task status · 18 November 2026
+
+The 18 November package includes seven source reviews, two learning exercises and two learning-page revisions. The published October inflation releases are now reflected in the prepared homepage, News, section panels, Reader Brief, calendar and Finance Library briefing. There are 67 remaining historical News gaps. Website publishing is blocked by exhausted Netlify credits; migration is paused after replacement-host sign-in was skipped.
+
+Daily article target · 5–10 source-checked articles or substantive revisions across the website.
+
+Google Search Console, Bing Webmaster Tools, GA4 and Clarity evidence remains required for growth and indexing decisions. The new source reviews and corrected search routes are ready for a later indexing check.
+
+[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-18.md) · [Dated website task record](daily-operations-2026-11-18.html)
+
+<!-- current-daily-status:end -->
+
 Use only Google Search Console, Google Analytics 4, Google Trends, Google PageSpeed Insights, Lighthouse, Bing Webmaster Tools, Microsoft Clarity, Microsoft Promotion, and Universal Event Tracking for analytics, SEO, Promotion, webmaster tools, trend research, performance analysis, and user behavior analysis.
 
 Do not use Ahrefs, SEMrush, SimilarWeb, Moz, third-party SEO platforms, or third-party analytics platforms. If data is unavailable, write what setup, verification, export, waiting period, or access is needed.

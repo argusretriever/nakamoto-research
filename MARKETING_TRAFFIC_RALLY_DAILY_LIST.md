@@ -1,5 +1,18 @@
 # NAKAMOTO Marketing And Traffic Rally Daily List
 
+<!-- current-daily-status:start -->
+## Current daily task status · 18 November 2026
+
+The 18 November package includes seven source reviews, two learning exercises and two learning-page revisions. The published October inflation releases are now reflected in the prepared homepage, News, section panels, Reader Brief, calendar and Finance Library briefing. There are 67 remaining historical News gaps. Website publishing is blocked by exhausted Netlify credits; migration is paused after replacement-host sign-in was skipped.
+
+Daily article target · 5–10 source-checked articles or substantive revisions across the website.
+
+Article discovery, metadata, related links, archive routes, RSS and search were updated in source. Google and Microsoft performance data, actual index status and a new newsletter summary remain open.
+
+[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-18.md) · [Dated website task record](daily-operations-2026-11-18.html)
+
+<!-- current-daily-status:end -->
+
 Use this checklist every day when the owner asks for marketing, traffic growth, impressions, clicks, retention, or traffic rally work.
 
 ## Daily Traffic Rally

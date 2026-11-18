@@ -1,3 +1,18 @@
+# NAKAMOTO Daily Operations Quick List
+
+<!-- current-daily-status:start -->
+## Current daily task status · 18 November 2026
+
+The 18 November package includes seven source reviews, two learning exercises and two learning-page revisions. The published October inflation releases are now reflected in the prepared homepage, News, section panels, Reader Brief, calendar and Finance Library briefing. There are 67 remaining historical News gaps. Website publishing is blocked by exhausted Netlify credits; migration is paused after replacement-host sign-in was skipped.
+
+Daily article target · 5–10 source-checked articles or substantive revisions across the website.
+
+Use the 71-task record for today’s results and open work. Start with the hosting block and the next official-release check.
+
+[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-18.md) · [Dated website task record](daily-operations-2026-11-18.html)
+
+<!-- current-daily-status:end -->
+
 ## 18 November repairs and hosting status
 
 Fixed keyboard skip links on News, Blog and Research Foundation. Removed automatic focus from the Search field. Fixed the Academy next-step link to its risk disclosure. Prepared six September source reviews with 18 November publication labels and updated search, RSS, sitemap and archive coverage. The coverage register now lists 67 older News gaps.
@@ -43,13 +58,12 @@ Published the GDP edition and five retrospective News and Blog pairs. Refreshed 
 
 Published the decision review, basis-point exercise and original-source pack. Preserved original dates; disclosed the 6 November gap. Updated discovery and current entry routes. See the dated inspection report for verification and deployment status.
 
-# NAKAMOTO Daily Operations Quick List
 
-## Current local handoff — 3 November 2026
+## Archived local handoff — 3 November 2026
 
 Prepared four source reviews and four exercises for 31 October–3 November, with actual writing and publication dates of 3 November 2026. Added source pack, evidence worksheet, publication coverage and maintenance schedule. Refreshed discovery, archives, search, feed and sitemap. Historical News gaps remain explicitly listed; no invented backdated headlines. Local verification passed; sync and live verification are recorded with this publication package. See `WEBSITE_MAINTENANCE_SCHEDULE.md`.
 
-## Current task status — 30 October 2026
+## Archived task status — 30 October 2026
 
 - [x] Deep follow-up on discovery wording: point the Source Packs "Latest pack" link to the 30 October pack; date the superseded 24 October headings in Source Packs and News Archive; remove an obsolete archive count from search results. Recheck site routes, section routes, article archives, and functional scripts.
 - [x] Full follow-up audit: replace duplicate current News and Blog article copies with distinct, self-canonical collection hubs; add topical search entries for all six latest articles and their source pack; relabel the superseded 27 October review links with their date. Recheck local routes, sections, article archives, scripts, and duplicate indexed titles before sync.

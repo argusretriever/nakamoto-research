@@ -3885,3 +3885,13 @@ body::after,
     background-image: none !important;
   }
 }
+
+/* Keep utility controls legible in both supported themes. */
+.sticky-conversion a {
+  background: var(--ink) !important;
+  color: var(--bg) !important;
+}
+:root[data-theme="dark"] table th {
+  background: #222222;
+  color: #f4f4f4;
+}

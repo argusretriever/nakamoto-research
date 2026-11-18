@@ -1,5 +1,18 @@
 # NAKAMOTO Research Foundation Daily Operations
 
+<!-- current-daily-status:start -->
+## Current daily task status · 18 November 2026
+
+The 18 November package includes seven source reviews, two learning exercises and two learning-page revisions. The published October inflation releases are now reflected in the prepared homepage, News, section panels, Reader Brief, calendar and Finance Library briefing. There are 67 remaining historical News gaps. Website publishing is blocked by exhausted Netlify credits; migration is paused after replacement-host sign-in was skipped.
+
+Daily article target · 5–10 source-checked articles or substantive revisions across the website.
+
+All 40 section fronts passed structural and keyboard checks. Research Foundation now has a focusable main landmark and skip link. The next substantive lesson and guide revisions remain queued.
+
+[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-18.md) · [Dated website task record](daily-operations-2026-11-18.html)
+
+<!-- current-daily-status:end -->
+
 Use this checklist for the new research foundation sections:
 
 1. Data & Analytics

@@ -1,3 +1,18 @@
+# NAKAMOTO Daily Operations: Trading Academy, Investing, Personal Finance, and Bitcoin
+
+<!-- current-daily-status:start -->
+## Current daily task status · 18 November 2026
+
+The 18 November package includes seven source reviews, two learning exercises and two learning-page revisions. The published October inflation releases are now reflected in the prepared homepage, News, section panels, Reader Brief, calendar and Finance Library briefing. There are 67 remaining historical News gaps. Website publishing is blocked by exhausted Netlify credits; migration is paused after replacement-host sign-in was skipped.
+
+Daily article target · 5–10 source-checked articles or substantive revisions across the website.
+
+Run the full 71-task record. Prioritise hosting, the remaining archive reviews, notifications, indexing access and manual accessibility.
+
+[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-18.md) · [Dated website task record](daily-operations-2026-11-18.html)
+
+<!-- current-daily-status:end -->
+
 ## 18 November repairs and hosting status
 
 Fixed keyboard skip links on News, Blog and Research Foundation. Removed automatic focus from the Search field. Fixed the Academy next-step link to its risk disclosure. Prepared six September source reviews with 18 November publication labels and updated search, RSS, sitemap and archive coverage. The coverage register now lists 67 older News gaps.
@@ -43,13 +58,12 @@ Published the GDP edition and five retrospective News and Blog pairs. Refreshed 
 
 Published the decision review, basis-point exercise and original-source pack. Preserved original dates; disclosed the 6 November gap. Updated discovery and current entry routes. See the dated inspection report for verification and deployment status.
 
-# NAKAMOTO Daily Operations: Trading Academy, Investing, Personal Finance, and Bitcoin
 
-## Current local handoff — 3 November 2026
+## Archived local handoff — 3 November 2026
 
 Prepared four source reviews and four exercises for 31 October–3 November, with actual writing and publication dates of 3 November 2026. Added source pack, evidence worksheet, publication coverage and maintenance schedule. Refreshed discovery, archives, search, feed and sitemap. Historical News gaps remain explicitly listed; no invented backdated headlines. Local verification passed; sync and live verification are recorded with this publication package. See `WEBSITE_MAINTENANCE_SCHEDULE.md`.
 
-## Current handoff — 30 October 2026
+## Archived handoff — 30 October 2026
 
 - Published three source reviews and three research exercises for 28–30 October archive slots, all actually published 30 October, plus a source pack. Original source dates: 26, 28 and 29 October. The 28 and 29 October site slots are retrospective, not backdated.
 - Updated current News and Blog pages, homepage, both archives, source discovery, four priority hubs, RSS, sitemap and the current operations page. Check the original Bank of England and FCA documents for later revisions before reusing figures or describing a consultation as final policy.
@@ -85,7 +99,7 @@ This is the single working checklist for improving the four priority sectors: Tr
 
 Primary objective: grow from hundreds of visitors to 1,000,000+ unique visitors through organic, sustainable growth.
 
-Daily publishing target: publish up to 100 source-checked items when enough real, useful, non-repeated source material exists. Do not invent stories, fake freshness, repeat old headlines without new evidence, or add low-quality filler just to hit a number.
+Daily publishing target: publish or substantively revise 5–10 source-checked articles across the website. Do not invent stories, fake freshness, repeat old headlines without new evidence, or add low-quality filler just to hit a number.
 
 ## Core Daily Operations Focus
 

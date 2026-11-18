@@ -136,3 +136,11 @@ body.home-page .hero-proof-grid span {
   html { filter: none; }
   * { color-adjust: economy; print-color-adjust: economy; }
 }
+
+/* Standalone editorial links need a comfortable keyboard and touch target. */
+.editorial-note > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  margin-block: 4px;
+}

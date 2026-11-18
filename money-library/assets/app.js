@@ -75,9 +75,10 @@ if (main && !document.body.classList.contains("error-page") && !/index\.html?$/.
 
 document.querySelectorAll(".footer-inner").forEach((footer) => {
   if (footer.querySelector(".review-signal")) return;
-  const signal = document.createElement("span");
+  const signal = document.createElement("a");
   signal.className = "review-signal";
-  signal.textContent = "Educational content reviewed Jun 20, 2026";
+  signal.href = "methodology.html";
+  signal.textContent = "Source standards and review process";
   footer.append(signal);
 });
 

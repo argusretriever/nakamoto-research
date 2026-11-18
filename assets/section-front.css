@@ -57,3 +57,16 @@ body.section-front .button.primary:focus-visible,
   outline: 2px solid currentColor;
   outline-offset: 4px;
 }
+
+body.section-front p a:not(.button) {
+  text-decoration: underline;
+  text-underline-offset: .18em;
+}
+
+body.indexing-queue article > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  margin-inline-end: 12px;
+  margin-block: 3px;
+}

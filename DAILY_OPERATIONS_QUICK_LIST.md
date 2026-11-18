@@ -1,3 +1,9 @@
+## 18 November repairs and hosting status
+
+Fixed keyboard skip links on News, Blog and Research Foundation. Removed automatic focus from the Search field. Fixed the Academy next-step link to its risk disclosure. Prepared six September source reviews with 18 November publication labels and updated search, RSS, sitemap and archive coverage. The coverage register now lists 67 older News gaps.
+
+Netlify production publishing is paused because the account has exhausted deployment credits in the 11 November–10 December billing period. The user chose another host, then skipped the replacement-host sign-in. Migration is paused. Changes are synced as source until hosting is restored. Existing form receipts for the three earlier tests were confirmed in Netlify. No form notification is configured.
+
 ## 17 November afternoon follow-up
 
 Published the ONS labour-market and productivity report. Updated the home, News and section reporting links, Reader Brief, Market Brief, release calendar, Official Data Hub, search, RSS and sitemap. October inflation is scheduled for 18 November.

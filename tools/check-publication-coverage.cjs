@@ -12,7 +12,7 @@ for (const file of ["crypto-news-today.html", "today-nakamoto-brief.html", "news
   assert(read(file).includes(lead), file + ": missing the homepage lead article");
 }
 let count = 0;
-for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-18T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
+for (let date = new Date('2026-06-11T00:00:00Z'); date <= new Date('2026-11-20T00:00:00Z'); date.setUTCDate(date.getUTCDate() + 1)) {
   const file = `bitcoin-blog-${date.toISOString().slice(0, 10)}.html`;
   assert(fs.existsSync(path.join(root, file)), `${file}: missing study`);
   assert(archive.includes(`href="${file}"`), `${file}: absent from archive`);

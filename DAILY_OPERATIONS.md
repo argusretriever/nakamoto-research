@@ -1,15 +1,13 @@
 # NAKAMOTO Daily Operations: Trading Academy, Investing, Personal Finance, and Bitcoin
 
 <!-- current-daily-status:start -->
-## Current daily task status · 18 November 2026
+## Current daily task status · 20 November 2026
 
-The 18 November package includes seven source reviews, two learning exercises and two learning-page revisions. The published October inflation releases are now reflected in the prepared homepage, News, section panels, Reader Brief, calendar and Finance Library briefing. There are 67 remaining historical News gaps. Website publishing is blocked by exhausted Netlify credits; migration is paused after replacement-host sign-in was skipped.
+The 20 November package contains three source reviews, two learning exercises and two learning-page revisions. Homepage, News, current section panels, Reader Brief, Finance Library, search, RSS and archive routes are prepared. There are 67 historical News gaps. Netlify publishing is still credit-blocked, confirmed in the signed-in dashboard on 20 November.
 
-Daily article target · 5–10 source-checked articles or substantive revisions across the website.
+Daily target · 5–10 useful source-checked articles or substantive revisions across the website.
 
-Run the full 71-task record. Prioritise hosting, the remaining archive reviews, notifications, indexing access and manual accessibility.
-
-[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-18.md) · [Dated website task record](daily-operations-2026-11-18.html)
+[All 71 task results](DAILY_OPERATIONS_STATUS_2026-11-20.md) · [Dated website task record](daily-operations-2026-11-20.html)
 
 <!-- current-daily-status:end -->
 

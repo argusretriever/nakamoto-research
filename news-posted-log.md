@@ -1,3 +1,7 @@
+## 20 November daily execution
+
+Prepared three source reviews, two exercises, two learning-page revisions, the source pack and Finance Library briefing. Updated current entry routes and all 71 task results. Hosting remains credit-blocked, reverified in the signed-in Netlify dashboard.
+
 ## 18 November daily execution
 
 Prepared the October inflation review from the published ONS releases, two learning exercises, a current source pack and Reader Brief, two learning-page revisions and the Finance Library source briefing. Updated the homepage, News and section reporting panels. The day also includes six historical September source reviews. The Blog archive contains 161 slots and the historical News queue contains 67 gaps.
